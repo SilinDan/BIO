@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>用户登录</title>
+	<link rel="stylesheet" type="text/css" href="./css/user-panel.css">
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<style type="text/css">
+		.header{
+			width: 100%;
+			height: 100px;
+			background: #292929;
+			text-align: center;
+		}
+		.test{
+			text-decoration: none;
+			font-size: 15px;
+			color: #fff;
+		}
+		.border-red{
+			border: 1px solid #f00;
+		}
+	</style>
+	<script type="text/javascript">
+		// function show(){
+		// 	document.getElementById('login').style.display='none';
+		// }
+		// function hidden(){
+		// 	document.getElementById('login').style.display='block';
+		// }
+		 
+		function verificationUser(){
+			var num=/^[1][\d]{9}[\d]$/g;
+			var email=/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.[a-zA-Z0-9]{2,6}$/;
+			if($(".input-id").val()==""){
+				$(".tips-user").text("请输入您的邮箱或手机号");
+				$(".input-id").addClass("border-red");
+			}else if(num.test($(".input-id").val())||email.test($(".input-id").val())){
+				$(".tips-user").text("");
+				$(".input-id").removeClass("border-red");
+				
+			}else {
+				$(".tips-user").text("请输入有效的邮箱或手机号");
+				$(".input-id").addClass("border-red");
+			}
+			
+		}
+		function verificationPwd(){
+			if($(".input-pwd").val()==""){
+				$(".tips-pwd").text("请输入您的密码");
+				$(".input-pwd").addClass("border-red");
+			}else if($(".input-pwd").val().length<8){
+				$(".tips-pwd").text("请输入8-30个字符");
+				$(".input-pwd").addClass("border-red");
+			}else {
+				$(".tips-pwd").text("");
+				$(".input-pwd").removeClass("border-red");
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="login" class="bg">
+		<div class="log-bg">
+			<div class="log-left">
+				<div class="log-left-content">
+					<div class="login-content-header">用户登录</div>
+					<div class="login-content-left">
+						<form>
+							<input type="text" placeholder="您的邮箱/手机*" name="id" value="" class="input-id" onblur="verificationUser()"><br/>
+							<div style=" position: absolute;color: #f00;font-size: 12px;" class="tips-user"></div>
+							<input type="password" placeholder="您的密码*" name="pwd" value="" class="input-pwd" onblur="verificationPwd()">
+							<div style=" position: absolute;color: #f00;font-size: 12px;" class="tips-pwd"></div>
+							<br/>
+							<div class="autolog-div">
+								<a href="#" class="a-forgetpwd" onclick="">忘记密码？</a>
+								<input type="checkbox" name="" value="" class="input-autolog"><span class="span-remember">记住用户名</span>
+								<br/>
+							</div>
+							<div class="login-div">
+								<a href="#" class="log-in">登录</a>
+							</div>
+						</form>
+					</div>
+
+					<div class="login-content-center">
+						<div class="split-line-div">
+							<div class="split-line"></div>
+							<div class="split-line-text">或</div>
+							<div class="split-line"></div>
+						</div>
+					</div>
+
+					<div class="login-content-right">
+						<div class="other-log">
+							使用合作网站账号登陆
+						</div>
+						<div class="other-log-way">						
+							<a href="#" class="login-way"><img src="./images/login-icon-wechat.png">微信</a>
+							<a href="#" class="login-way"><img src="./images/login-icon-qq.webp">QQ</a>
+							<a href="#" class="login-way"><img src="./images/login-icon-weibo.webp">微博</a>
+							<a href="#" class="login-way"><img src="./images/login-icon-alipay.webp">支付宝</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="log-right">
+				<div class="log-right-content">
+					<div class="dialog-close">
+						<a href="#" onclick="document.getElementById('login').style.display='none'"><span class="close-dialog">×</span></a>
+					</div>
+					<div class="new-user-content">
+						<div class="new-user-title">新用户注册</div>
+						<p class="p-explain">注册成为碧欧泉官方会员，第一时间获取官网最新资讯与特惠礼遇，查看物流信息，共享线上线下积分。</p>
+						<div class="register-div">
+							<a href="bio-register.php" class="user-register">立即注册</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<a href="#" onclick="document.getElementById('login').style.display='block'" class="test">登录与注册（点这里）</a> 
+	</div>
+
+</body>
+</html>

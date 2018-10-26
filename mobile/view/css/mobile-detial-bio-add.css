@@ -1,0 +1,136 @@
+.detail-bio-comment-add{
+			overflow: hidden;
+			width: 100%;
+			background: #fff;
+			border-top: 1px solid #CBCBCC;
+		}
+		.hidden{
+			display: none;
+		}
+		.comment-add-min{
+			width: 90%;
+			overflow: hidden;
+			margin: 10px auto;
+		}
+		.comment-add-title{
+			height: 30px;
+			width: 100%;
+			font-size: 1.8rem;
+			margin-top: 10px;
+		}
+		.comment-add-first{
+			height: 300px;
+			width: 100%;
+			background: #fff;
+		}
+		.comment-tags{
+			height: 30px;
+			width: 100%;
+			
+		}
+		.comment-tags-label{
+			width: 25%;
+			text-align: right;
+			float: left;
+		}
+		.comment-buyWay{
+			height: 50px;
+			width: 100%;
+		}
+		.comment-buyWay-select{
+			height: 49px;
+			width: 100%;
+			padding-left: 10px;
+		}
+		.comment-input-box{
+			width: 75%;
+			float: left;
+		}
+		.comment-allUser{
+			height: 50px;
+			width: 100%;
+		}
+		.comment-text{
+			height: 170px;
+			width: 100%;
+		}
+		.comment-text-content{
+			overflow-x: hidden;
+			resize: none;
+			height: 120px;
+			width: 100%;
+			padding-left: 5px;
+			padding-top: 5px;
+		}
+		.font-grey{
+			color: #535355;
+		}
+		.font-red{
+			color: #f00;
+		}
+		.font-size-min{
+			font-size: 1.2rem;
+		}
+		.font-line50{
+			line-height: 50px;
+		}
+		.comment-add-secondary{
+			overflow: hidden;
+			width: 100%;
+			background: #fff;
+		}
+		.comment-add-pic{
+			height: 100px;
+			width: 100%;
+		}
+		.comment-add-pic1{
+			height: 100px;
+			width: 100px;
+			background: url("../images/comment_add_pic1.png");
+			float: left;
+		}
+		.comment-add-pic2{
+			height: 100px;
+			width: 100px;
+			float: left;
+			opacity: 0.0;
+		}
+		.margin-right{
+			margin-right: 2%;
+		}
+		.comment-add-sumbit-box{
+			height: 70px;
+			width: 100%;
+			margin-top: 10px;
+		}
+		.comment-add-tips{
+			width: 100%;
+			height: 50px;
+		}
+		.comment-add-sumbit{
+			width: 100%;
+			height: 70px;
+		}
+		.comment-inputSub{
+			width: 100%;
+			height: 50px;
+			background: #141831;
+			color: #fff;
+			font-size: 1.5rem;
+			line-height: 50px;
+			border: none;
+			float: right;
+		}
+		.border-red{
+			border: 1px solid #f00;
+		}
+		.border-blue{
+			border: 1px solid #99BBF2;
+		}
+		.tips-star{
+			position: relative;
+			color: #f00;
+			font-size: 1.2rem;
+			top: 20px;
+		}
+

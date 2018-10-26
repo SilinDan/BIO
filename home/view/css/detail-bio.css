@@ -1,0 +1,599 @@
+		.detail-bio-box{
+			height: 100%;
+			min-width:768px; 
+			max-width: 1178px;
+			margin: 0 auto;
+			font-family: microsoft yahei,stheiti,Arial,sans-serif;
+			background: #fff;
+		}
+		.detail-bio-box-fixed{
+			height: 135px;
+			width: 95px;
+			background: #141831 url("../images/detail-bio13.png") no-repeat 12px 15px;
+			position: fixed;
+			top: 226px;
+			right: 12.7%;
+			color: #fff;
+			text-align: center;
+			line-height: 195px;
+		}
+		.detail-bio-box-fixed1{
+			height: 135px;
+			width: 95px;
+			background: #141831 url("../images/detail-bio14.png") no-repeat 12px 15px;
+			position: fixed;
+			top: 363px;
+			right: 12.7%;
+			color: #fff;
+			text-align: center;
+			line-height: 195px;
+		}
+		.detail-bio-box-fixed2{
+			height: 135px;
+			width: 95px;
+			background: #141831 url("../images/detail-bio15.png") no-repeat 12px 15px;
+			position: fixed;
+			top: 500px;
+			right: 12.7%;
+			color: #fff;
+			text-align: center;
+			line-height: 195px;
+		}
+		.detail-bio-box-fixed3{
+			height: 95px;
+			width: 60px;
+			background: #141831 url("../images/detail-bio16.png") no-repeat 18px 25px;
+			position: fixed;
+			top: 670px;
+			right: 12.7%;
+			color: #fff;
+			text-align: center;
+			line-height: 115px;
+		}
+		.detail-bio-box-link{
+			height: 80px;
+			width: 100%;
+			text-align: center;
+			font-size: 38px;
+			line-height: 80px;
+		}
+		.dbb-link{
+			width: 30%;
+			height: 1px;
+			background: #CBCBCD;
+			position: relative;
+			float: left;
+			top: 40px;
+			left: 13%;
+		}
+		.dbb-link1{
+			width: 30%;
+			height: 1px;
+			background: #CBCBCD;
+			position: relative;
+			float: left;
+			top: 40px;
+			left: -13%;
+		}
+		.dbb-link2{
+			width: 40%;
+			float: left;
+		}
+		.dbb-link3{
+			width: 30%;
+			height: 1px;
+			position: relative;
+			float: left;
+			top: 40px;
+			left: 13%;
+		}
+		.dbb-link4{
+			width: 30%;
+			height: 1px;
+			position: relative;
+			float: left;
+			top: 40px;
+			left: -13%;
+		}
+		.detail-bio-box-tuijian{
+			height: 720px;
+			width: 100%;
+		}
+		.dbb-tuijian{
+			height: 410px;
+			width: 100%;
+			background: #141831;
+		}
+		.dbb-shop{
+			height: 50px;
+			width: 200px;
+			color:#fff;
+			font-size: 18px;
+			background:#eb2126;
+			border:1px solid #eb2126;
+			text-align: center;
+			position: relative;
+			top: 50px;
+			left: 42%;
+		}
+		.detail-bio-box-tuijian a{
+			text-decoration: none;
+			color: #141831;
+		}
+		
+		.index-single-boss{
+			height: 610px;
+			width: 100%;
+			margin-left: 9%;
+		}
+		.index-single-all{
+			height: 593px;
+			min-width:25%; 
+			max-width: 30%;
+			/*margin-left: 10%;*/
+			float: left;
+			margin-right: 2%;
+		}
+		.index-single-all-name{
+			color: #fff;
+			text-align: center;
+			font-size: 30px;
+
+		}
+		.index-single-botton{
+			height: 410px;
+			width: 100%
+			margin: 0 auto;
+			float: left;
+			position: relative;
+			top: 135px;
+			left: 20%;
+		}
+		.index-single-botton1{
+			height: 345px;
+			width: 100%
+			margin: 0 auto;
+			float: left;
+			position: relative;
+			left: 12%;
+		}
+		.index-single-botton img{
+			height: 237px;
+			width: 100%;
+		}
+		.index-single-botton1 img{
+			height: 237px;
+			width: 80%;
+			padding-left: 10%;
+		}
+		.isb-introduce{
+			width: 100%;
+			height: 330px;
+			margin-top: 15px;
+		}
+		.isb-introduce1{
+			width: 100%;
+			height: 330px;
+		}
+		.isb-introduce-ying{
+			color: #fff;
+			font-size: 30px;
+			text-align: center;
+			line-height: 230px;
+			height: 237px;
+			width: 80%;
+			background: #000;
+			margin-left: 10%;
+			display: none;
+			opacity: 0.3;
+			position: absolute;
+			top: 0px;
+		}
+		/* .isb-introduce1 a:hover +.isb-introduce-ying{
+			display: block;
+		} */
+		.isb-introduce1 a{
+			text-decoration: none;
+			color: #000;
+		}
+		.isb-introduce-man{
+			height: 21px;
+			width: 58px;
+			background: #000;
+			color: #fff;
+			font-size: 12px;
+			position: relative;
+			top: 45px;
+			line-height: 21px;
+			text-align: center;
+		}
+		.isb-introduce-name{
+			height: 35px;
+			width: 220px;
+			color: #141831;
+			font-size: 18px;
+			text-align: center;
+			padding-top: 5px;
+		}
+		.isb-introduce-name1{
+			height: 35px;
+			width: 300px;
+			color: #141831;
+			font-size: 18px;
+			text-align: center;
+			padding-top: 5px;
+		}
+		.isb-introduce-star{
+			height: 30px;
+			width: 220px;
+			color: #535355;
+			font-size: 16px;
+			text-align: center;
+			padding-top: 20px;
+		}
+		.isb-introduce-star1{
+			height: 30px;
+			width: 300px;
+			color: #535355;
+			font-size: 16px;
+			text-align: center;
+			padding-top: 10px;
+		}
+		.isb-introduce-star1 img{
+			height: 15px;
+			width: 15px;
+			padding: 0px;
+		}
+		.isb-introduce-star img{
+			height: 20px;
+			width: 20px;
+		}
+		.isb-introduce-ml{
+			height: 30px;
+			width: 300px;
+			padding-left: 130px;
+		}
+		.isb-price{
+			height: 30px;
+			width: 220px;
+			text-align: center;
+			font-size: 23px;
+			line-height: 30px;
+			font-weight: bold;
+			color: #f00;
+		}
+		.isb-price1{
+			height: 30px;
+			width: 300px;
+			text-align: center;
+			font-size: 23px;
+			margin-top: 10px;
+			font-weight: bold;
+			color: #f00;
+		}
+		.isb-buy{
+			height: 50px;
+			width: 150px;
+			position: relative;
+			top:145px;
+			left: 9%;
+		}
+		.isb-buy1{
+			height: 50px;
+			width: 150px;
+			position: relative;
+			top:145px;
+			left: 60%;
+		}
+		.isb-buy2{
+			height: 50px;
+			width: 150px;
+			position: relative;
+			left: 9%;
+		}
+		.isb-buy-name1{
+			height: 50px;
+			width: 150px;
+			border: 1px solid #e5e5e6;
+			background: #fff;
+			text-align: center;
+			font-size: 22px;
+			position: relative;
+		}
+		.isb-buy-name2{
+			height: 50px;
+			width: 245px;
+			border: 1px solid #141831;
+			color: #fff;
+			background: #141831;
+			text-align: center;
+			font-size: 22px;
+			position: relative;
+		}
+		.isb-buy-name{
+			height: 50px;
+			width: 150px;
+			background: #141831;
+			color: #fff;
+			text-align: center;
+			font-size: 22px;
+			border: 1px solid #141831;
+		}
+		.detail-bio-pic{
+			height: 100%;
+			width: 75%;
+			margin: 0 auto;
+		}
+		.detail-bio-pic img{
+			width: 100%;
+		}
+		
+		.detail-bio-box-comments{
+			height: 100%;
+			width: 75%;
+			margin: 0 auto;
+		}
+		.detail-bio-box-comments-all{
+			height: 200px;
+			width: 100%;
+			background: #fff;
+		}
+		.detail-bio-box-comments-all1{
+			height: 200px;
+			width: 100%;
+			background: #fff;
+			border-top: 1px solid #CBCBCC;
+			overflow: auto;
+		}
+		.dbbc-com{
+			height: 200px;
+			width: 14%;
+			float: left;
+			font-size: 14px;
+			text-align: center;
+		}
+		.dbbc-com img{
+			border: 1px solid #CBCBCC;
+			height: 126px;
+			width: 100%;
+		}
+
+		.dbbc-left{
+			height: 200px;
+			width: 66%;
+			font-size: 13px;
+			font-weight: bold;
+			line-height: 80px;
+			padding-left: 32px;
+			float: left;
+		}
+		.dbbc-left img{
+			height: 15px;
+			width: 15px;
+		}
+		.dbbc-right{
+			height: 200px;
+			float: left;
+			width: 16.3%;
+		}
+		.dbbc-box{
+			height: 43px;
+			width: 120px;
+			background: #fff;
+			color: #141831;
+			font-size: 13px;
+			border: 1px solid #141831;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.dbbc-right a{
+			color: #141831;
+			text-decoration: none;
+			text-align: center;
+			line-height: 43px;
+		}
+		.dbbc-com1{
+			height: 170px;
+			width: 14.3%;
+			float: left;
+			font-size: 14px;
+			text-align: center;
+			padding-top: 30px;
+		}
+		.dbbc-com1 img{
+			
+			height: 15px;
+			width: 15px;
+		}
+		.dbbc-left1{
+			height: 200px;
+			width: 68%;
+			font-size: 13px;
+			line-height: 40px;
+			padding-left: 12px;
+			float: left;
+		}
+		.dbbc-left1 ul li{
+			list-style-type: disc;
+			list-style-type: disc;
+			width: 90px;
+			float: left;
+		}
+		.dbbc-none{
+			height: 20px;
+			width: 20px;
+			background-color: #ccc;
+			display: none;
+		}
+		.dbbc-right1{
+			height: 180px;
+			float: left;
+			width: 16.3%;
+			line-height: 35px;
+			text-align: center;
+			font-size: 14px;
+			padding-top: 20px;
+		}
+		.dbbc-zan{
+			height: 30px;
+			width: 60%;
+			float: right;
+			background: url("../images/detail-bio17.png") no-repeat 60px;
+			padding-left: 50px;
+		}
+		.dbbc-name{
+			height: 20px;
+			width: 85%;
+			float: right;
+		}
+		.dbbc-box1{
+			height: 43px;
+			width: 120px;
+			background: #141831;
+			color: #fff;
+			font-size: 18px;
+			border: 1px solid #141831;
+			margin-top: 20px;
+			line-height: 45px;
+			float: right;
+		}
+		.detail-bio-box-like{
+			height: 500px;
+			width: 100%;
+		}
+
+
+
+
+/*这是添加评论加的样式*/
+		.detail-bio-comment-add{
+			overflow: hidden;
+			width: 100%;
+			background: #fff;
+			border-top: 1px solid #CBCBCC;
+			display: none;
+		}
+		.comment-add-title{
+			height: 50px;
+			width: 100%;
+			margin-top: 40px;
+		}
+		h3{
+			color: #535355;
+			padding: 0;
+			font-weight: 400;
+			font-size: 1.2rem;
+		}
+		.comment-add-first{
+			height: 300px;
+			width: 80%;
+			float: left;
+			background: #fff;
+		}
+		.comment-tags{
+			height: 30px;
+			width: 100%;
+			
+		}
+		.comment-tags-label{
+			width: 20%;
+			text-align: right;
+			float: left;
+		}
+		.comment-buyWay{
+			height: 50px;
+			width: 100%;
+		}
+		.comment-buyWay-select{
+			height: 49px;
+			width: 100%;
+			padding-left: 10px;
+		}
+		.comment-input-box{
+			width: 80%;
+			float: left;
+		}
+		.comment-allUser{
+			height: 50px;
+			width: 100%;
+		}
+		.comment-text{
+			height: 170px;
+			width: 100%;
+		}
+		.comment-text-content{
+			overflow-x: hidden;
+			resize: none;
+			height: 120px;
+			width: 97%;
+			padding-left: 5px;
+			padding-top: 5px;
+		}
+		.font-grey{
+			color: #535355;
+		}
+		.font-red{
+			color: #f00;
+		}
+		.font-size-min{
+			font-size: 0.75rem;
+		}
+		.font-line50{
+			line-height: 50px;
+		}
+		.comment-add-secondary{
+			height: 250px;
+			width: 45%;
+			float: right;
+			background: #fff;
+		}
+		.comment-add-pic{
+			height: 150px;
+			width: 100%;
+		}
+		.comment-add-pic1{
+			height: 125px;
+			width: 125px;
+			background: url("../images/comment_add_pic.png");
+			float: left;
+		}
+		.comment-add-pic2{
+			height: 125px;
+			width: 125px;
+			float: left;
+			opacity: 0.0;
+		}
+		.margin-right{
+			margin-right: 2%;
+		}
+		.comment-add-sumbit-box{
+			height: 70px;
+			width: 100%;
+			margin-top: 10px;
+		}
+		.comment-add-tips{
+			width: 65%;
+			height: 70px;
+			float: left;
+		}
+		.comment-add-sumbit{
+			width: 30%;
+			height: 70px;
+			float: right;
+		}
+		.comment-inputSub{
+			width: 100%;
+			height: 50px;
+			background: #2B626F;
+			color: #fff;
+			font-size: 1rem;
+			line-height: 50px;
+			border: none;
+			float: right;
+		}
+		.border-red{
+			border: 1px solid #f00;
+		}
+		.border-blue{
+			border: 1px solid #99BBF2;
+		}

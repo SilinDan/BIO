@@ -1,0 +1,258 @@
+.acc_main{
+	width: 1178px;
+	height: 800px;
+	background: #fff;
+	margin:0 auto;
+}
+.acc_cnt{
+	width: 1178px;
+	overflow: hidden;
+	background: #fff;
+	margin:0 auto;
+	border-top:1px #ccc solid;
+	font-size: 14px;
+	color: #535355;
+}
+.cnt_top{
+	width: 920px;
+	height: 230px;
+	margin:0 auto;
+	background: url(../images/myaccount-primary.jpg)  no-repeat center ;
+}
+.cnt_top_a{	
+	font-size: 14px;
+	color: #ccc;
+	text-decoration:none;
+}
+.cnt_top_span{
+	font-size: 14px;
+	color: #fff;
+}
+.cnt_top_h1{
+	
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	margin: 25px 0;
+}
+.cnt_left{
+	width:20%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	left: 11%;
+	top: 45px;
+	
+}
+#links_box{
+	width: 220px;
+    float: left;
+}
+#links_box a {
+	color: #808080;
+    width: 220px;
+    height: 50px;
+    margin: 0 auto;
+    text-indent: 10px;
+    border-bottom: 2px #fff solid;
+    line-height:50px;
+    font-size: 14px;
+    display: block;
+    background: url(../images/2018-10-10_110208.png)  no-repeat right 10px center #F8F8F5;
+}
+.cnt_right{
+	width: 85%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	left: 8%;
+	margin: 30px 0;
+}
+.right_p{
+	font-weight: 600;
+}
+.right_text{
+	font-weight: 500;
+}
+.right_button{
+	width: 160px;
+	height: 50px;
+	line-height: 50px;
+	background: #2B626F;
+	text-align:center;
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	margin: 20px 5px 0 0;
+}
+.right_button:hover{
+
+	text-decoration: none;
+	
+}
+
+
+.right_a{
+	color:  #535355;
+	text-decoration:underline;
+}
+
+.right_a:hover{
+	text-decoration:none;
+}
+.tips{
+	position: relative;
+	top: 201px;
+	left: -524px;
+}
+.password_box{
+	width: 80%;
+	height: 50px;
+	margin: 10px 6%;
+}
+.pwdstrong{
+	width: 80%;
+	height: 30px;
+    border-radius: 5px;
+    margin-left: 6%;
+}
+.pwdbutton1{
+	width: 48%;
+	height: 50px;
+	line-height: 50px;
+	background: #fff;
+	text-align:center;
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	border: 1px #2B626F solid;
+	color:#2B626F;
+	float: left;
+	margin-right: 5px;
+	
+}
+.pwdbutton2{
+	width: 48%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px #2B626F solid;
+	background: #2B626F;
+	text-align:center;
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	
+}
+.button_box{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+.radio{
+	/*visibility: hidden;*/
+}
+.modify{
+	margin-top:40px;
+}
+.modify_box{
+	width: 100%;
+	height: 40px;
+	
+	/*margin-top: 30px;*/
+}
+.modify_seclet_box{
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	
+}
+
+.tips_phone{
+	color: #ADACAC;
+	font-size: 12px;
+	position: relative;
+	left: -210px;
+	top: 33px;
+	font-weight: bold;
+}
+.note_button{
+	background: #535355;
+	color: #808082;
+	width: 200px;
+	height: 46px;
+	border:none;
+	font-size: 18px;
+	line-height: 46px;
+	left: -146px;
+	top: -47px;
+
+}
+.note_button1{
+	background: #2B626F;
+	color: #fff;
+	width: 200px;
+	height: 46px;
+	border:none;
+	font-size: 18px;
+	line-height: 46px;
+	float: right;
+	top: -47px;
+}
+.verification {
+	width: 146px;
+	height: 41px;
+	text-indent: 20px;
+	float: left;
+}
+.verification_code{
+	width: 100px;
+	height: 42px;
+	left: 10px;
+	float: left;
+}
+.code_text{
+	width: 60px;
+	height: 40px;
+	float: right;
+}
+.phone_box{
+	float: right;
+	width: 333px;
+	height: 72px;
+	line-height: 21px;
+	position: relative;
+
+left: -13px;
+	
+}
+
+.model_box{
+	
+	width: 100%;
+	height: 70px;
+	
+}
+
+.samll{
+	
+	width: 30%;
+	height: 40px;
+	
+}
+.tips{
+	
+}
+.strong{
+	width: 100%;
+	height: 20px;
+	background: #f5f5f5;
+	border-radius: 5px;
+	border-left: 4px #D9534F solid;
+	margin-left: -4px;
+}

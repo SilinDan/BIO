@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="css/pintuer.css">
+<link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" type="text/css" href="./public/font-awesome-4.7.0/css/font-awesome.css">
+<script src="js/jquery.js"></script>
+<script src="js/pintuer.js"></script>
+<script type="text/javascript">
+  function ajaxCheckOrdernum() {
+      $("#user").blur(function () {
+        //alert($(this).val());
+        $.ajax({
+          url:"../api/user.api.php?order=ajaxCheckOrdernum",
+          type:'post',
+          dataType:"html",
+          data:{user:$(this).val()}, 
+          success:function(res) {
+            $("#tishi").html(res);
+          }
+        })
+      })
+    }
+    $(ajaxCheckOrdernum)
+</script>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><i class="fa fa-address-book-o"></i><strong> 订单-编辑订单 </strong> 网站系统订单资料</div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="../api/user.api.php?order=add">
+            <div class="form-group">
+              <div class="label">
+                <label for="sitename">订单编号：</label>
+              </div>
+              <div class="field">
+                <input type="text" class="input w50" id="user" name="order_num" size="50" placeholder="请输入订单编号" data-validate="required:请输入订单编号" />  
+                <span id="tishi" class="ok" style="line-height: 30px;"> </span>     
+              </div>
+            </div>      
+            <div class="form-group">
+              <div class="label">
+                <label for="sitename">收货人:</label>
+              </div>
+              <div class="field">
+                <input type="text" class="input w50" name="order_name" size="50" placeholder="请输入收货人" data-validate="required:请输入收货人" />        
+              </div>
+            </div>      
+            <div class="form-group">
+              <div class="label">
+                <label for="sitename">总金额：</label>
+              </div>
+              <div class="field">
+                <input type="text" class="input w50" name="sum_price" size="50" placeholder="请输入总金额" />         
+              </div>
+            </div>
+            <div class="form-group">
+                <div class="label">
+                  <label>订单状态：</label>
+                </div>
+                <div class="field">
+                  <select name="order_state" id="order_state" class="input w50">
+                    	<option value="待确认">待确认</option>
+			          	<option value="已取消">已取消</option>
+			         	<option value="已收货">已收货</option>
+                  </select>
+                  <div class="tips"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="label">
+                  <label>支付状态：</label>
+                </div>
+                <div class="field">
+                  <select name="pay_state" id="pay_state" class="input w50">
+                    	<option value="待支付">待支付</option>
+			          	<option value="已支付">已支付</option>
+                  </select>
+                  <div class="tips"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="label">
+                  <label>发货状态：</label>
+                </div>
+                <div class="field">
+                  <select name="send_state" id="send_state" class="input w50">
+                    	<option value="待发货">待发货</option>
+			          	<option value="已发货">已发货</option>
+                  </select>
+                  <div class="tips"></div>
+                </div>
+              </div>
+            <div class="form-group">
+	                <div class="label">
+	                  <label>支付方式：</label>
+	                </div>
+	                <div class="field">
+	                  <select name="pay_way" id="pay_way" class="input w50">
+	                    	<option value="银联在线支付">银联在线支付</option>
+	                    	<option value="手机网络支付">手机网络支付</option>
+				          	<option value="其他方式">其他方式</option>
+	                  </select>
+	                  <div class="tips"></div>
+	                </div>
+              </div>	
+              <div class="form-group">
+	                <div class="label">
+	                  <label>配送方法：</label>
+	                </div>
+	                <div class="field">
+	                  <select name="send_way" id="send_way" class="input w50">
+	                  <option value="申通物流">申通物流</option>
+				          	<option value="圆通物流">圆通物流</option>
+				          	<option value="百世汇通">百世汇通</option>
+				          	<option value="顺风物流">顺风物流</option>
+	                  </select>
+	                  <div class="tips"></div>
+	                </div>
+              </div>	
+            <div class="form-group">
+              <div class="label">
+                <label></label>
+              </div>
+              <div class="field">
+                <input type="submit" name="" class="button bg-main icon-check-square-o" value="提交">
+                <!-- <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>    -->
+              </div>
+            </div>      
+    </form>
+  </div>
+</div>
+</body></html>

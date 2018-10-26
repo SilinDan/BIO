@@ -1,0 +1,40 @@
+ .service_list{
+    	list-style: none;
+    	padding-left: 0px;
+    	line-height: 45px;
+    	font-size: 18px;
+    	color: #535355;
+    }
+
+    .service_title{
+         font-size: 26px;
+         font-weight:400;
+         color: #535355;
+    }
+
+    .se_content{
+		width: 940px;
+    	background: #fff;
+    	margin: auto;
+     }
+     .se_background{
+		width: 1176px;
+    	background: #fff;
+    	margin: auto;
+       overflow: hidden;
+		}
+	 .service_list a{
+	 	color: #535355;
+	 	text-decoration: none;
+	 }
+      .auth a{
+	    color: #535355;
+	 	text-decoration: none;
+	 }
+     .question{
+        border-top: 1px solid #d5d5d5;
+        margin-bottom: 16px;
+    }
+    .question-text span{
+        font-size: 14px;line-height: 23px;
+    }

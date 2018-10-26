@@ -1,0 +1,82 @@
+.member_content{
+			width: 1176px;
+			overflow: hidden;
+			margin:0 auto;
+			background:#fff; 
+		}
+		.member_content_litel{
+			width: 140px;
+			height: 50px;
+			line-height: 50px;
+			margin-left: 108px;
+			margin-bottom: 10px;
+		}
+		.member_content_litel_a{
+			font-size: 14px;
+			color: #C0C0C0;
+			text-decoration: none;
+		}
+		.member_content_litel_span{
+			font-size: 14px;
+			color: #535355;
+		}
+		.member_content_meun{
+			width: 888px;
+			height: 37px;
+			margin-left: 110px;
+			line-height: 37px;
+			text-align: center;
+			margin-right:120px;
+			padding-left: 10px;
+		}
+		.member_content_meun_a{
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+		}
+
+		.member_content_meun_color_1{
+			width: 138px;
+			height: 37px;
+			float: left;
+			background: #0D78B7;
+			margin-top: 10px;
+			transform:skew(-30deg); 
+		}
+
+		.member_content_meun_text{
+			
+			transform:skew(30deg);
+		}
+		.member_content_meun_color_2{
+			width: 138px;
+			height: 37px;
+			float: left;
+			background: #23B9D0;
+			transform:skew(-30deg);
+			transition: all .5s ease;
+			margin-right: -10px;
+
+		}
+		.member_content_meun_color_2:hover{
+			margin-top: 10px;
+			/*margin-left:-10px; */
+			background: #0D78B7;
+
+		}
+		
+		.member_content_cnt{
+			margin-top: 10px;
+			width: 1176px;
+			overflow:hidden;
+			text-align: center;
+			border-top : 1px solid #0D78B7;
+			
+		}
+		.member_content_cnt_picture{
+			width: 960px;
+			overflow:hidden;
+			margin:0 auto;
+			text-align: center;
+			margin-top: 32px
+		}

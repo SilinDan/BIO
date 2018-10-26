@@ -1,0 +1,294 @@
+.shopping_main{
+	width: 100%;
+	overflow:hidden;
+	
+}
+.shopping_top{
+	color: #535355;
+	width: 97%;
+	height: 6rem;
+	border-bottom: 1px #CBCBCC solid; 
+	float: left;
+	font-size: 0.8rem;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.shopping_title{
+	width: 97%;
+	height: 2rem;
+	float: left;
+}
+.title_1and3{
+
+	width: 30%;
+	float: left;
+	color: #EAE5E3;
+	border-bottom:2px #EAE5E3 solid;
+}
+.title_2{
+
+	width: 30%;
+	border-bottom:  #2B626F solid;
+	float: left;
+}
+.title_zfywl{
+	width: 100%;
+	height: 2rem;
+	font-size: 1.1rem;
+	float: left;
+	margin-bottom: 0.4rem;
+	background: #F8F8F5;
+}
+.shopping_add{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	font-size: 0.8rem;
+	
+
+}
+.add_a{
+	
+	text-indent:20px;
+	background: url("../images/2018-09-18_015129.png") no-repeat left  ;
+	text-decoration: none;
+	color: #000;
+	float: left;
+
+}
+.add_span{
+
+	color: #f00;
+	float: right;
+	margin-right: 0.6rem;
+}
+.add_input{
+	width: 98%;
+	float: left;
+	
+	text-indent: 0.5rem;
+	overflow: hidden;
+
+}
+.input_demo{
+	width: 96%;
+	height: 2rem;
+	line-height: 2rem;
+}
+.shopping_check_box{
+	float: left;
+	margin: 0.4rem auto;
+	text-indent: 0.5rem;
+	
+}
+.check_demo{
+	float: left;
+	background: #fff;
+	width: 5rem;
+	height: 2rem;
+	margin-right:0.6rem; 
+	border: 1px solid #ccc;
+}
+
+.shopping_bc{
+	width: 45%;
+	text-align: center;
+	height: 2.2rem;
+	color: #fff;
+	font-size: 1.2rem;
+	background: #2B626F;
+	margin: 1rem 0;
+	border:none;
+}
+.shopping_tail{
+	width: 97%;
+	overflow: hidden;
+	border-bottom:1px #CBCBCC solid;
+	padding: 1.5rem 0;
+	float: left;
+	line-height: 2rem;
+}
+.tail_check{
+	float: right;
+}
+.tail_span{
+	font-size: 1rem;
+	color: #535355;
+	font-weight: bold;
+}
+.tail_a{
+	font-size: 0.75rem;
+	color: #535355;
+	text-decoration: none;
+}
+.tail_pay{
+	text-decoration: none;
+	float: left;
+	font-size: 0.75rem;
+	color: #535355;
+	background: url("../images/zhifubao.png") no-repeat left;
+	text-indent: 6rem;
+}
+.tail_radio{
+	float: left;
+}
+.tail_foot{
+	width: 100%;
+	height: 7rem;
+	float: left;
+	color: #535355;
+	font-size: 0.75rem;
+	text-align: center;
+	line-height: 4rem;
+}
+.jiesuan{
+	width: 100%;
+	height: 3.5rem;
+	color: #fff;
+	text-align: center;
+	background: #2B626F;
+	font-weight: bold;
+	line-height: 3.5rem;
+	position: fixed;
+	bottom: 0rem;
+	left: 0rem;
+
+}
+.jie_input{
+	/*border: 0;*/
+	width: 8rem;
+	height: 2rem;
+	text-align: center;
+	margin: 0 2rem;
+}
+.div_d{
+	width: 100%
+	height: 2rem;
+	float: left;
+	line-height: 1rem;
+	margin-top: 1rem; 
+}
+
+.header_logo {
+    width: 100px;
+    height: 32px;
+    margin-top: 18px;
+}
+
+.cart_header {
+    width: 100%;
+    height: 70px;
+    background: #292929;
+    text-align: center;
+}
+.tips{
+	width: 10rem;
+	height: 1rem;
+	color: #f00;
+	float: left;
+	font-size: 0.8rem;
+	position: relative;
+	left: -0.5rem;;
+
+}
+.message_board{
+	width: 97%;
+	overflow: hidden;
+	border-top: 1px #CBCBCC solid;
+	border-bottom:  1px #CBCBCC solid;
+}
+.message_title{
+	float: left;
+	width: 97%;
+	height: 85px;
+}
+.title_text{
+	float: left;
+	font-size: 1rem;
+	height: 3.8rem;
+	width: 60%;
+}
+.title_choos{
+	margin-top: 1.4rem;
+	float: right;
+}
+.message_box{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	display: none;
+}
+.message_biaoti{
+	color: #2B626F;
+	float: left;
+}
+.message_zishu{
+	margin-right: 0.5rem;
+	float: right;
+}
+.save_note_box{
+	float: right;
+}
+.save_note{
+	width: 9rem;
+	height: 2.5rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	background: #2B626F;
+	border: none;
+	margin: 1rem 0.5rem;
+}
+.invoice_box{
+	width: 97%;
+	overflow:hidden;
+	float: left;
+	border-bottom:  1px #CBCBCC solid;
+}
+.invoice_choose{
+	width: 5rem;
+	float: left;
+	height: 2.5rem;
+}
+.save_invoice_box{
+	width: 97%;
+	overflow: hidden;
+	float: left;
+	display: none;
+}
+.save_invoice{
+	width: 9rem;
+	height: 2.5rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	background: #2B626F;
+	border: none;
+	float: right;
+}
+.invoice_button{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border: 1px #000 solid;
+}
+.none_button{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border: 1px #000 solid;
+}
+.invoice_right{
+	width: 13rem;
+	overflow: hidden;
+	float: right;
+}
+.company_name{
+	width:12rem;
+	height: 1.5rem;
+}
+.company_num{
+	width:12rem;
+	height: 1.5rem;
+	margin-bottom: 2rem; 
+}

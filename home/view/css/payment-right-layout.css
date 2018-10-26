@@ -1,0 +1,191 @@
+.bg{
+	width: 100%;
+	overflow: hidden;
+	background: #292929;
+}
+.payment-main{
+	width: 1176px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #fff;
+}
+.payment-content{
+	width: 940px;
+	overflow: hidden;
+	/*background: #f00;*/
+	margin: auto;
+	margin-top: 30px;
+}
+.payment-left{
+	width: 682px;
+	overflow: hidden;
+	background: #000;
+	float: left;
+}
+.payment-right{
+	width: 225px;
+	overflow: hidden;
+	/*background: #00f;*/
+	float: left;
+
+}
+.order-summary{
+	width: 216px;
+	overflow: hidden;
+	float: right;
+	background: #F8F8F5;
+}
+.order-summary-content{
+	width: 190px;
+	overflow: hidden;
+	margin: 0 auto;
+	/*background: #292929;*/
+}
+.order-summary-detail{
+	width: 100%;
+	height: 156px;
+	/*background: #f00;*/
+	text-align: center;
+	border-bottom: 1px solid #808080;
+}
+.order-summary-title{
+	font-size: 17px;
+	font-weight: 800;
+	color: #808080;
+	padding-top: 35px;
+	/*background: #000;*/
+}
+.product-number-total{
+	font-size: 15px;
+	color: #808080;
+	padding-top: 30px;
+	/*background: #292929;*/
+}
+.span-number-blue{
+	color: #2B626F;
+}
+.a-esc-amend{
+	font-size: 12px;
+	color: #808080;
+}
+.order-product{
+	height: 136px;
+	width: 100%;
+	/*background: #f00;*/
+	border-bottom: 1px solid #808080;
+	vertical-align: middle;
+}
+.order-product-content{
+	width: 100%;
+	height: 80px;
+	padding-top: 15%;
+	/*background: #ccc;*/
+}
+.order-product-image{
+	width: 25%;
+	float: left;
+	margin-top: 5%;
+	/*background: #000;*/
+	vertical-align: middle;
+}
+.image-BIO10009_1{
+	width: 100%;
+}
+.order-product-detail{
+	width: 50%;
+	float: left;
+	font-size: 12px;
+	color: #808080;
+	/*background: #000;*/
+}
+.order-product-price{
+	width: 20%;
+	float: right;
+	font-size: 14px;
+	color: #2B626F;
+}
+.product-name{
+	width: 100%;
+	font-size: 14px;
+}
+.product-spec{
+	margin-top: 5%;
+}
+.product-price-freight{
+	height: 90px;
+	width: 100%;
+	border-bottom: 1px solid #808080;
+}
+.product-price-totil{
+	height: 20px;
+	width: 100%;
+	padding-top: 10%;
+}
+.product-freight{
+	height: 20px;
+	width: 100%;
+	padding-top: 5%;
+	/*background: #f00;*/
+}
+.term-script{
+	font-size: 14px;
+	width: 70%;
+	color: #808080;
+	float: left;
+}
+.term-price{
+	font-size: 14px;
+	font-weight: 800;
+	color: #2B626F;
+	float: right;
+}
+.order-product-total-price{
+	width: 100%;
+	height: 75px;
+}
+.term-total{
+	width: 70%;
+	font-size: 17px;
+	color: #808080;
+	float: left;
+	margin-top: 15%;
+}
+.term-total-price{
+	width: 30%;
+	font-size: 17px;
+	font-weight: 800;
+	color: #2B626F;
+	float: right;
+	margin-top: 15%;
+}
+.empty-div{
+	height: 10px;
+	width: 100%;
+	background: #fff;
+}
+.order-footer{
+	width: 216px;
+	overflow: hidden;
+	float: right;
+	background: #F8F8F5;
+}
+.order-footer-content{
+	width: 190px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 14px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.term-contaction{
+	height: 18px;
+	width: 100%;
+	margin-top: 10%;
+	font-size: 20px;
+	color: #808080;
+}
+.a-help-center{
+	padding-left: 10%;
+	font-size: 14px;
+	color: #808080;
+}

@@ -1,0 +1,86 @@
+
+		.mibox{
+			color: #535355;
+			font-size: 12px;
+			width: 80%;
+			line-height: 18px;
+			height: 170px;
+			margin: 0 auto;
+		}
+		.mibox_all{
+			height: 370px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+		.content-newAddress1{
+			height: 30px;
+			width: 70px;
+			background: #2B626F;
+			border: 1px solid #2B626F;
+			padding-left: 20px;
+			line-height: 30px;
+			float: left;
+			margin-top: 10px;
+			color: #fff;
+		}
+		.content-newAddress2{
+			height: 30px;
+			width: 70px;
+			background: #fff;
+			border: 1px solid #2B626F;
+			padding-left: 20px;
+			line-height: 30px;
+			float: left;
+			margin-top: 10px;
+		}
+		.mibox_all a{
+			color: #2B626F;
+			text-decoration: none;
+		}
+		.content-newAddress1 a{
+			color: #fff;
+			text-decoration: none;
+		}
+		.suredel{
+			height: 100px;
+		width: 250px;
+		border-radius: 0%;
+		background: #fff;
+		margin: 0 auto;
+		position: absolute;
+		left: 20%;
+		top: 30%;
+		color: #000;
+		display: none;
+		}
+		.suredel a{
+			color: #fff;
+			text-decoration: none;
+		}
+		.beijing{
+			height: 100%;
+			width: 100%;
+			background: #000;
+		opacity: 0.6;
+		position: absolute;
+		display: none;
+			
+		}
+		.wenhao{
+			font-size: 1.3em;
+			padding-left: 22%;
+			padding-top: 15px;
+		}
+		.sure{
+			border: 1px solid #2B669A;
+			background: #2B669A;
+			height: 35px;
+			width: 70px;
+			opacity: 1;
+			line-height: 35px;
+			padding-left: 20px;
+			margin-left: 35px;
+			float: left;
+			color: #fff;
+			margin-top: 15px;
+		}

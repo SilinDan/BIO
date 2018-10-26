@@ -1,0 +1,217 @@
+.shop-address-bg{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.shop-address-content{
+	width: 95%;
+	overflow: hidden;
+	/*background: #ccc;*/
+	margin: 1rem auto;
+}
+.breadcrumb-div{
+	width: 100%;
+	height: 3rem;
+	/*background: #f00;*/
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+.breadcrumb {
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+  color: #ccc;
+  list-style: none;
+  background-color: #fff;
+}
+.breadcrumb > li {
+  display: inline-block;
+  color: #ccc;
+}
+.breadcrumb > li + li:before {
+  padding: 0 0.5rem;
+  color: #ccc;
+  content: ">";
+}
+.breadcrumb > .active {
+  color: #535353;
+}
+.a-breadcrumb{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 1.2rem;
+}
+.address-demand-div{
+	width: 100%;
+	height: 6rem;
+	font-size: 2rem;
+	color: #535355;
+	line-height: 6rem;
+	border-bottom: 2px solid #adacac;
+}
+.shop-demand-div{
+	width: 100%;
+	height: 6rem;
+	font-size: 1.5rem;
+	color: #535355;
+	line-height: 6rem;
+	border-bottom: 1px solid #BFBEBE;
+}
+.span-shop-demand{
+	color: #ccc;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+}
+.demand-provinces{
+	width: 100%;
+	height: 2rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #ccc;
+	margin-top: 2rem;
+}
+.input-provinces{
+	width: 100%;
+	height: 3.5rem;
+	/*background: #f00;*/
+	margin-top: 0.5rem;
+}
+.select-province{
+	width: 30%;
+	height: 3.5rem;
+	color: #ccc;
+	float: left;
+}
+.select-city{
+	width: 30%;
+	height: 3.5rem;
+	color: #ccc;
+	margin-left: 5%;
+	float: left;
+}
+.select-area{
+	width: 30%;
+	height: 3.5rem;
+	color: #ccc;
+	float: right;
+}
+.search-div{
+	width: 100%;
+	height: 3rem;
+	margin-top: 1rem;
+}
+.a-search{
+	text-decoration: none;
+	background: #2B626F;
+	height: 3rem;
+	width: 30%;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 3rem;
+	color: #fff;
+}
+.demand-street{
+	width: 100%;
+	height: 2rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #ccc;
+	margin-top: 2rem;
+}
+.input-street{
+	width: 100%;
+	height: 3.5rem;
+	margin-top: 0.5rem;
+}
+.input-text{
+	width: 100%;
+	height: 3.5rem;
+	padding-left: 1rem;
+}
+.shop-close{
+	width: 100%;
+	height: 6rem;
+	font-size: 1.5rem;
+	color: #535355;
+	line-height: 6em;
+	border-bottom: 1px solid #C5C5C5;
+	margin-bottom: 180PX;
+}
+/*.address-phone-content{
+	width: 100%;
+	height: 13rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: #535355;
+	padding-top: 2rem;
+	border-bottom: 1px solid #C2C1C1;
+}*/
+
+p{
+ 
+  margin-left:10px;
+  margin-top:10px;
+}
+  .add_list{
+        width: 100%;
+        height: 143px;
+        border-bottom: 1px solid #ADACAC;
+        margin-top: 20px;
+	 }
+
+      .add_left{
+      	width: 100%;
+      	overflow: hidden;
+      	float: left;
+      }
+
+       .add_right{
+      	width: 100%;
+      	overflow: hidden;
+      	float: left;
+      }
+	  .add_titile{
+	   height:25px; 
+       font-size: 12px;
+       background:  url("../images/locator.png") no-repeat left; 
+       text-indent: 25px;
+       line-height: 25px;
+       color: #535355;
+	 }
+
+	  .add_detail{
+       font-size: 12px;
+       line-height: 30px;
+       color: #535355;
+	 }
+
+    .nav-tabs {
+    border-bottom: 1px solid #ddd;
+    width: 450px;
+} 
+
+
+   .tab-content>.active {
+    display: block;
+    width: 450px;
+   
+}
+
+      .nav-tabs > li > a {
+     
+        line-height: 1.42857143;
+        border: 1px solid #2B626F;
+       /*  border-radius: 4px 4px 0 0; */
+        width: 195px;
+        text-align: center;
+        color: #292929;
+      }
+
+     .addmap_content{
+      width: 100%;
+      overflow: hidden;
+     }
+.input-provinces select{
+	height: 35px;
+	width: 30%;
+}

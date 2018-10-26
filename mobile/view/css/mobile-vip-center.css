@@ -1,0 +1,37 @@
+.little-nav {
+    width: 100%;
+    padding: 0 5%;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 50px;
+}
+.little-nav a{
+	display: block;
+	color: #C0C9D9;
+	float: left;
+	padding: 0px 4px;
+	line-height: 60px;
+}
+.little-nav span{
+	display: block;
+	color: #C0C9D9;
+	float: left;
+	padding: 0px 4px;
+	line-height: 60px;
+}
+.mobile-vip_center{
+	width: 90%;
+	overflow: hidden;
+	margin: 5%;
+}
+.mobile-vip_center img{
+	margin: 0.5rem 0;
+}
+.mobile-vip_center .img-vip-content{
+	width: 100%;
+}
+.img-vip-title{
+	width: 40%;
+}
+.mobile-newVip{
+	border-top: 2px solid #4D4D4D;
+}

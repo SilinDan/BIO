@@ -1,0 +1,354 @@
+.moblie-admin-bio{
+			height: 100%;
+			width: 100%;
+			background: #fff;
+			margin-top: 50px;
+		}
+		.mab-breadhead{
+			height: 55px;
+			line-height: 30px;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.breadcrumb > li + li:before {
+ 	    	padding: 0 5px;
+ 		    color: #000;
+ 	    	content: ">";
+ 		  }
+		.breadcrumb {
+			background: #fff;
+			margin-bottom: 0px;
+			border-bottom: 1px solid #DEDEDE;
+			border-radius: 0px;
+			padding: 8px 1px;
+		}
+ 		.breadcrumb a{
+ 		 	color: #C0C0C0;
+ 		 	font-size: 1em;
+ 		 	text-decoration: none;
+ 		 }
+ 		 .mab-breadhead {
+		    line-height: 35px;
+		}
+		.moblie-admin-bio-head{
+			width: 100%;
+			height: 70px;
+			font-size: 2em;
+			color: #535355;
+			text-align: center;
+			line-height: 70px;
+		}
+		.moblie-admin-bio-goto{
+			width: 100%;
+			height: 40px;
+			font-size: 1.3em;
+			color: #23BBD2;
+			text-align: center;
+			line-height: 40px;
+		}
+		.moblie-admin-bio-goto a{
+			color: #23BBD2;
+			text-decoration: underline;
+		}
+		.moblie-admin-bio-box{
+			height: 70px;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.mabb-name{
+			height: 50px;
+			width: 100%;
+			border: 1px solid #E5E5E6;
+			padding-left: 5%;
+			line-height: 50px;
+			color: #535355;
+			font-size: 0.9em;
+		}
+		.mabb-name-admin{
+			height: 50px;
+			width: 100%;
+			border: 1px solid #2B626F;
+			padding-left: 5%;
+			line-height: 50px;
+			background: #2B626F;
+			text-align: center;
+			color: #fff;
+			font-size: 1.5em;
+		}
+		.moblie-admin-bio-forget{
+			height: 50px;
+			width: 80%;
+			margin: 0 auto;
+			font-size: 0.9em;
+			line-height: 50px;
+		}
+		.moblie-admin-bio-forget a{
+			color: #C0C0C0;
+			text-decoration: underline;
+		}
+		.mabf-rember{
+			float: right;
+			font-weight: bold;
+		}
+		.mabf-rember a{
+			text-decoration: none;
+		}
+		.moblie-admin-bio-huo{
+			height: 60px;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.mabh-left{
+			margin-top: 38px;
+			height: 1px;
+			width: 44%;
+			background: #C0C0C0;
+			float: left;
+		}
+		.mabh-center{
+			height: 60px;
+			font-size: 0.9em;
+			width: 12%;
+			color: #C0C0C0;
+			line-height: 80px;
+			text-align: center;
+			float: left;
+		}
+		.moblie-admin-bio-fri{
+			width: 100%;
+			height: 50px;
+			font-size: 0.9em;
+			color: #535355;
+			text-align: center;
+			line-height: 50px;
+		}
+		.moblie-admin-bio-puin{
+			height: 80px;
+			width: 80%;
+			margin: 0 auto;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.mabp-qq{
+			height: 40px;
+			width: 40px;
+			border: 1px solid #C0C0C0;
+			background: url("../images/login-icon-qq.png") no-repeat;
+			margin-right: 20px;
+			float: left;
+			font-size: 0.9em;
+			color: #C0C0C0;
+			padding-top: 40px;
+			padding-left: 3%;
+		}
+		.mabp-weibo{
+			height: 40px;
+			width: 40px;
+			border: 1px solid #C0C0C0;
+			background: url("../images/login-icon-weibo.png") no-repeat;
+			margin-right: 20px;
+			float: left;
+			font-size: 0.9em;
+			color: #C0C0C0;
+			padding-top: 40px;
+			padding-left: 1%;
+		}
+		.mabp-alipay{
+			height: 40px;
+			width: 40px;
+			border: 1px solid #C0C0C0;
+			background: url("../images/login-icon-alipay.png") no-repeat;
+			float: left;
+			font-size: 0.9em;
+			color: #C0C0C0;
+			padding-top: 40px;
+		}
+		.moblie-admin-bio-bai{
+			height: 30px;
+			width: 100%;
+		}
+		.moblie-admin-bio-callup{
+			height: 230px;
+			width: 80%;
+			margin: 0 auto;
+			background: #F8F8F5;
+		}
+		.mabc-up{
+			height: 60px;
+			width: 90%;
+			line-height: 60px;
+			margin: 0 auto;
+			color: #535355;
+		}
+		.mabc-help1{
+			height: 60px;
+			width: 50%;
+			font-size: 1.3em;
+			font-weight: bold;
+			float: left;
+		}
+		.mabc-help{
+			height: 60px;
+			width: 40%;
+			font-size: 0.8em;
+			margin: 0 auto;
+			float: right;
+		}
+		.mabc-up a{
+			
+			color: #535355;
+			text-decoration: underline;
+		}
+		.mabc-name{
+			height: 40px;
+			width: 90%;
+			line-height: 40px;
+			font-size: 0.9em;
+			margin: 0 auto;
+			color: #535355;
+		}
+		.mabc-name1{
+			height: 27px;
+			width: 90%;
+			line-height: 27px;
+			font-size: 0.9em;
+			margin: 0 auto;
+			color: #535355;
+		}
+
+		.moblie-hadadmin-bio-head{
+			width: 100%;
+			height: 50px;
+			font-size: 1.1em;
+			text-align: center;
+			line-height: 50px;
+		}
+		.moblie-hadadmin-bio-head a{
+			text-decoration: underline;
+			color: #535355;
+		}
+		.moblie-hadadmin-bio-box{
+			height: 70px;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.mabb-name-hadadmin{
+			height: 50px;
+			width: 100%;
+			border: 1px solid #535355;
+			line-height: 50px;
+			text-align: center;
+			font-size: 0.8em;
+		}
+		.moblie-hadadmin-bio-box a{
+			color: #535355;
+			text-decoration: none;
+		}
+		.moblie-hadadmin-address-bio{
+			min-height: 600px;
+			overflow: hidden;
+			width: 100%;
+			background: #fff;
+			margin-top: 50px;
+		}
+		.moblie-hadadmin-myorder-bio-box{
+			height: 50px;
+			width: 90%;
+			margin: 0 auto;
+		}
+		.mhmbb-left{
+			height: 40px;
+			width: 50%;
+			float: left;
+			border-left: 1px solid #C0C0C0;
+			border-top: 3px solid #000;
+			line-height: 40px;
+			text-align: center;
+			font-size: 0.8em;
+			color: #535355;
+		}
+		.mhmbb-right{
+			height: 40px;
+			width: 50%;
+			float: left;
+			border: 1px solid #C0C0C0;
+			line-height: 40px;
+			text-align: center;
+			font-size: 0.8em;
+			color: #535355;
+		}
+		.moblie-hadadmin-bio-mytry-xian{
+			height: 1px;
+			width: 90%;
+			background: #DEDEDE;
+			margin: 0 auto;
+		}
+		.moblie-hadadmin-bio-mytry-head1{
+			width: 100%;
+			height: 50px;
+			font-size: 0.9em;
+			text-align: center;
+			line-height: 50px;
+		}
+		.moblie-hadadmin-bio-mytry-head{
+			width: 100%;
+			height: 25px;
+			font-size: 0.9em;
+			text-align: center;
+			line-height: 25px;
+		}
+		.moblie-hadadmin-bio-mytry-head a{
+			text-decoration: underline;
+			color: #535355;
+		}
+		.moblie-hadadmin-bio-mytry-head1 a{
+			text-decoration: underline;
+			color: #535355;
+		}
+		.moblie-hadadmin-helpcenter-bio{
+			height: 100%;
+			width: 100%;
+			background: #fff;
+			margin-top: 50px;
+		}
+		
+		.moblie-helpcenter-bio-head{
+			width: 100%;
+			height: 50px;
+			font-size: 1.8em;
+			padding-left: 10%;
+			color: #535355;
+			text-align: left;
+			line-height: 50px;
+			border-bottom: 1px solid #DEDEDE;
+		}
+		.moblie-helpcenter-bio-tou{
+			width: 80%;
+			height: 50px;
+			font-size: 1.3em;
+			margin: 0 auto;
+			color: #535355;
+			text-align: left;
+			line-height: 50px;
+		}
+		.moblie-helpcenter-bio-answer{
+			width: 80%;
+			height: 180px;
+			font-size: 0.8em;
+			margin: 0 auto;
+			color: #535355;
+			text-align: left;
+			line-height: 20px;
+			border-bottom: 1px dashed #DEDEDE;
+		}
+		.moblie-helpcenter-bio-answer-long{
+			width: 80%;
+			height: 280px;
+			font-size: 0.8em;
+			margin: 0 auto;
+			color: #535355;
+			text-align: left;
+			line-height: 20px;
+			border-bottom: 1px dashed #DEDEDE;
+		}

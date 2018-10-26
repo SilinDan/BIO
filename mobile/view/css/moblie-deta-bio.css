@@ -1,0 +1,462 @@
+
+		.mobile-detail-bio-all{
+			height: 100%;
+			width: 100%;
+			color: #141831;
+			background: #fff;
+			margin-top: 14rem;
+		}
+		
+		.mdb-left{
+			height: 100%;
+			min-width: 21%;
+			max-width: 25%;
+			margin-left: 4%;
+			float: left;
+			margin-top: 14px;
+		}
+		.mdb-center{
+			height: 100%;
+			min-width: 30%;
+			max-width: 35%;
+			float: left;
+			margin-left: 5%;
+			padding-left: 15%;
+		}
+		.mdb-right{
+			height: 100%;
+			min-width: 24%;
+			max-width: 28%;
+			float: right;
+			margin-top: 14px;
+		}
+		.mobile-content img{
+			margin-top: 10px;
+		}
+		.glyphicon-list{
+			color: #fff;
+			font-size: 1.7em;
+			line-height: 50px;
+		}
+		.glyphicon-user{
+			color: #fff;
+			font-size: 1.7em;
+			padding-left: 10%;
+			line-height: 50px;
+		}
+		.glyphicon-search{
+			color: #fff;
+			font-size: 1.7em;
+			padding-left: 18%;
+			line-height: 50px;
+		}
+		.glyphicon-lock{
+			color: #fff;
+			font-size: 1.7em;
+			padding-left: 2%;
+			line-height: 50px;
+		}
+		.mdb-head{
+			height: 30px;
+			width: 100%;
+			background: #ccc;
+			margin-top:50px; 
+		}
+		.mdb-head img{
+			min-height: 20px;
+			max-height: 30px;
+			width: 100%;
+		}
+		.mdb-bai{
+			height: 15px;
+			width: 100%;
+		}
+		.mdb-zi{
+			color: #C0C0C0;
+			height: 45px;
+			width: 100%;
+			padding-right: 5%;
+			padding-left: 5%;
+		}
+		.mdb-zi a{
+			color: #C0C0C0;
+			font-size: 1em;
+			text-decoration: none;
+		}
+		.mdb-box-name{
+			color: #141831;
+			height: 45px;
+			font-size: 2em;
+			text-align: center;
+			line-height: 45px;
+			width: 100%;
+		}
+		.mdb-box-name1{
+			color: #141831;
+			height: 23px;
+			font-size: 0.8em;
+			text-align: center;
+			line-height: 23px;
+			width: 100%;
+		}
+		.mdb-box-name2{
+			color: #141831;
+			height: 30px;
+			font-size: 0.9em;
+			text-align: center;
+			line-height: 30px;
+			width: 100%;
+		}
+		.mdb-box-name2 img{
+			width: 13px;
+			height: 13px;
+		}
+		.mdb-box-name2 a{
+			color: #141831;
+			text-decoration: none;
+		}
+		.mdb-box-img{
+			min-height: 360px;
+			max-height: 410px;
+			width: 100%;
+		}
+		.mdb-box-img img{
+			
+			max-height: 350px;
+			min-width: 70%;
+			max-width: 90%;
+			display: block;
+			margin-left: 10%;
+		}
+		.isb-introduce-hot{
+			height: 48px;
+			width: 48px;
+			color: #fff;
+			font-size: 13px;
+			font-weight: bold;
+			position: relative;
+			top: 75px;
+			left: 16%;
+			line-height: 48px;
+			text-align: center;
+		}
+		.mdb-box-price{
+			height: 140px;
+			width: 100%;
+			text-align: center;
+
+		}
+		.mdbbp-name{
+			height: 52px;
+			width: 100%;
+			line-height: 50px;
+			color: #EB2126;
+			font-size: 2em;
+		}
+		.mdbbp-ml{
+			font-size: 1em;
+			height: 50px;
+			max-width: 48%;
+			min-width: 47%;
+			float: left;
+			color: #141831;
+			border: 1px solid #E5E5E6;
+			line-height: 50px;
+			text-align: center;
+		}
+		.mdbbp-ml2{
+			font-size: 1em;
+			height: 50px;
+			max-width: 48%;
+			min-width: 47%;
+			float: right;
+			color: #141831;
+			border: 1px solid #E5E5E6;
+			line-height: 50px;
+			text-align: center;
+		}
+		.mdb-box-shop{
+			height: 70px;
+			width: 100%;
+		}
+		.mdbbp-ml1{
+			font-size: 1em;
+			height: 50px;
+			max-width: 80%;
+			min-width: 80%;
+			background: #141831;
+			float: left;
+			color: #fff;
+			border: 1px solid #141831;
+			line-height: 50px;
+			text-align: center;
+			margin-left:11%; 
+		}
+		.mdbbp-ml3{
+			height: 90px;
+			max-width: 80%;
+			min-width: 80%;
+			margin-left:11%; 
+		}
+		.mdbbp-love{
+			height: 48px;
+			width: 48px;
+			float: right;
+			border: 1px solid #EB2126;
+			background:  url("../images/heart-red.png") no-repeat 13px 14px;
+			text-align: center;
+		}
+		/*.mdbbp-love :hover{
+			height: 48px;
+			width: 48px;
+			float: right;
+			background: #EB2126  url("../images/heart-while.png") no-repeat 13px 14px;
+			text-align: center;
+		}*/
+		.mdb-box-detial{
+			overflow: hidden;
+			width: 80%;
+			line-height: 24px;
+			margin-left:11%;
+			margin-bottom: 20px; 
+		}
+		.mdb-box-subject{
+			height: 45px;
+			min-width: 100%;
+			max-height: 90%;
+			background: #F8F8F5 url("../images/2018-09-13_161524.png") no-repeat  right 10px;
+			font-size: 1.3em;
+			text-align: center;
+			line-height: 45px;
+		}
+		.mdb-box-link{
+			height: 600px;
+			width: 100%;
+		}
+		.mdb-box-pic{
+			height: 310px;
+			width: 100%;
+			overflow: hidden;
+			background: url("../images/background_01.jpg") no-repeat;
+		}
+		.mdbbp-ml9{
+			font-size: 1.2em;
+			height: 50px;
+			max-width: 80%;
+			min-width: 80%;
+			background: #EB2126;
+			float: left;
+			color: #fff;
+			border: 1px solid #EB2126;
+			line-height: 50px;
+			text-align: center;
+			margin-left:11%;
+			margin-top: 35px; 
+		}
+		.mdbbp-ml5{
+			height: 415px;
+			max-width: 80%;
+			min-width: 80%;
+			margin-left:11%;
+			position: relative;
+			top: -37%;
+		}
+		.mdbbp-ml6{
+			height: 500px;
+			max-width: 80%;
+			min-width: 80%;
+			margin-left:11%;
+			position: relative;
+			top: -37%;
+		}
+		.mdb-buy-name1{
+			height: 40px;
+			max-width: 48%;
+			min-width: 47%;
+			border: 1px solid #E5E5E6;
+			background: #fff;
+			text-align: center;
+			font-size: 1em;
+		}
+		.mdb-buy-name{
+			height: 40px;
+			max-width: 48%;
+			min-width: 47%;
+			background: #141831;
+			color: #fff;
+			text-align: center;
+			font-size: 1em;
+			border: 1px solid #141831;
+		}
+
+
+		.mdbbp5-img{
+			height: 240px;
+			width: 100%;
+
+		}
+		.mdbbp5-img img{
+			position: relative;
+		    max-height: 100%;
+		    max-width: 100%;
+		    width: auto;
+		    height: auto;
+		    top: 50%;
+		    left: 50%;
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+		    transform: translateX(-50%) translateY(-50%);
+		}
+		.mbb-introduce-name{
+			height: 60px;
+			max-width: 80%;
+			min-width: 80%;
+			line-height: 24px;
+			margin-left:11%; 
+			font-size: 1.2em;
+			text-align: center;
+			padding-top: 5px;
+		}
+		.mdb-introduce-star{
+			height: 30px;
+			max-width: 51%;
+			min-width: 50%;
+			color: #535355;
+			text-align: center;
+			margin-top: -15px;
+		}
+		/*.mdb-introduce-star img{
+			height: 15px;
+			width: 15px;
+		}*/
+		.mdb-introduce-star img{
+			position: relative;
+		    max-height: 100%;
+		    max-width: 100%;
+		    width: 15px;
+		    height: 15px;
+		    top: 50%;
+		    left: 50%;
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+		    transform: translateX(-50%) translateY(-50%);
+		}
+		.mdb-price{
+			height: 30px;
+			max-width: 100%;
+			min-width: 80%;
+			text-align: center;
+			font-size: 23px;
+			font-weight: bold;
+			color: #EB2126;
+		}
+		.mdbbp-ml{
+			font-size: 1em;
+			height: 45px;
+			max-width: 48%;
+			min-width: 50%;
+			float: left;
+			color: #141831;
+			border: 1px solid #E5E5E6;
+			line-height: 45px;
+			text-align: center;
+		}
+		.mdbbp-ml2{
+			font-size: 1em;
+			height: 45px;
+			max-width: 48%;
+			min-width: 50%;
+			float: right;
+			background: #141831;
+			color: #fff;
+			border: 1px solid #141831;
+			line-height: 45px;
+			text-align: center;
+		}
+		.mdb-box-picture{
+			height: 100%;
+			width: 80%;
+			margin: 0 auto;
+		}
+		.mdb-box-picture img{
+			width: 100%;
+		}
+		
+		.mdb-box-comments-all{
+			min-height: 180px;
+			max-height: 200px;
+			width: 100%;
+		}
+		.mdb-box-comments-all1{
+			min-height: 195px;
+			max-height: 210px;
+			width: 100%;
+			border-top: 1px solid #CBCBCC;
+		}
+		.mdb-com{
+			min-height: 100px;
+			max-height: 200px;
+			width: 30%;
+			float: left;
+			font-size: 14px;
+			text-align: center;
+			margin-left: 10%;
+			margin-top: 25px;
+		}
+		.mdb-com img{
+			border: 1px solid #CBCBCC;
+			height: 90px;
+			width: 100%;
+		}
+		.mdb-pinlun{
+			width: 50%;
+			font-size: 1em;
+			line-height: 25px;
+			padding-left: 6%;
+			float: left;
+			margin-top: 20px;
+		}
+		.mdb-pinlun img{
+			height: 15px;
+			width: 15px;
+		}
+		.mdb-pinlun a{
+			line-height: 45px;
+			color: #141831; 
+			text-decoration: underline;
+		}
+		.mdb-box-comments-left{
+			height: 60px;
+			margin:0 auto;
+			font-size: 1em;
+			margin-top: 20px;
+		}
+		.mdb-box-comments-left ul li{
+			list-style-type: disc;
+			width: 40%;
+			float: left;
+		}
+		.mdb-box-comments-center{
+			height: 30px;
+			width: 80%;
+			margin:0 auto;
+		}
+		.mdb-box-comments-right{
+			height: 45px;
+			width: 45%;
+			margin-top: 20px;
+			margin-left: 10%;
+			float: left;
+		}
+		.mdb-box-comments-right1{
+			height: 45px;
+			width: 35%;
+			margin-top: 20px;
+			margin-left: 10%;
+			float: left;
+		}
+		.mdb-box-comments-right1 img{
+			height: 15px;
+			width: 15px;
+		}
+.mobile-input{
+	display: block;
+}

@@ -1,0 +1,39 @@
+	<style>
+       .rating-stars .rating-stars-container a {
+            color: #EB2126;
+        }
+
+       .rating-stars .rating-stars-container a:hover,
+       .rating-stars .rating-stars-container a:active,
+       .rating-stars .rating-stars-container a:focus {
+            color: #dab10d;
+        }
+
+        .rating-stars {
+            width: 40%;
+            float: left;
+            margin-top: 12px;
+           
+        }
+
+        .rating-stars .rating-stars-container {
+            font-size: 0px;
+        }
+
+        .rating-stars .rating-stars-container .rating-star {
+            display: inline-block;
+            font-size: 15px;
+            color: #8B8B8B;
+            cursor: pointer;
+            padding: 5px 5px;
+        }
+
+        .rating-stars .rating-stars-container .rating-star.is--active,
+        .rating-stars .rating-stars-container .rating-star.is--hover {
+            color: #EB2126;
+        }
+
+        .rating-stars .rating-stars-container .rating-star.is--no-hover {
+            color: ##8B8B8B;
+        }
+    </style>

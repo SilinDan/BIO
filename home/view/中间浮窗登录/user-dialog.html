@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>用户登录</title>
+	<link rel="stylesheet" type="text/css" href="./css/user-dialog.css">
+	<link rel="stylesheet" type="text/css" href="./css/">
+	<style type="text/css">
+		.header{
+			width: 100%;
+			height: 100px;
+			background: #292929;
+			text-align: center;
+		}
+		.test{
+			text-decoration: none;
+			font-size: 24px;
+			color: #fff;
+			background: #2B626F;
+			height: 70px;
+			width: 160px;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		    <a href="#" onclick="document.getElementById('login').style.display='block'" class="test">立即登录（点这里）</a>
+	</div>
+	<div style="width: 100%;height: 500px;background: #f00;font-size: 30px;color: #fff;text-align: center;">（测试用）</div>
+
+
+	<div id="login" class="bg">
+		<div class="log-bg">
+			 <div class="log-dialog">
+				<div class="dialog-close">
+					<a href="#" onclick="document.getElementById('login').style.display='none'"><span class="close-dialog">×</span></a>
+				</div>
+				<div class="dialog-content">
+					<div class="user-log">
+						<div class="log-title">用户登录</div>
+						<div class="user-log-left">
+							<form>
+								<input type="text" placeholder="您的邮箱/手机*" name="id" value="" class="input-id"><br/>
+								<input type="text" placeholder="您的密码*" name="pwd" value="" class="input-pwd">
+								<br/>
+								<div class="autolog-div">
+									<a href="#" class="a-forgetpwd" onclick="">忘记密码？</a>
+									<input type="checkbox" name="" value="" class="input-autolog"><span class="span-remember">记住用户名</span>
+									<br/>
+								</div>
+								<div class="login-div">
+									<a href="#" class="log-in">登录</a>
+								</div>
+								<div class="split-line-div">
+									<span class="split-line"></span>
+									<span class="split-line-text">或</span>
+									<span class="split-line"></span>
+								</div>
+								<div class="other-log">
+									使用合作网站账号登陆
+								</div>
+								<div class="other-log-way">						
+									<a href="#" class="login-way"><img src="./images/login-icon-wechat.png">微信</a>
+									<a href="#" class="login-way"><img src="./images/login-icon-qq.webp">QQ</a>
+									<a href="#" class="login-way"><img src="./images/login-icon-weibo.webp">微博</a>
+									<a href="#" class="login-way"><img src="./images/login-icon-alipay.webp">支付宝</a>
+								</div>
+							</form>
+						</div>
+
+						<div class="user-log-right">
+							<div class="new-user-content">
+								<p class="p-new-user">我还是新用户，前往 <a href="#" class="a-new-user">注册</a>
+								</p>
+								<div class="register-div">
+									<a href="#" class="user-register">立即注册</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+.hello{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	z-index: 49;
+	display: none;
+	opacity: 0.5;
+}
+.moblie-admin-bio-box a{
+	display: block;
+	background: #2B626F;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.8rem;
+}
+.opacity{
+	opacity: 0.5;
+}
+.font-size1{
+	font-size: 0.75rem;
+}
+.font-size4{
+	font-size: 2.4rem;
+}
+.font-size2{
+	font-size: 0.8rem;
+}
+.font-size3{
+	font-size: 1.8rem;
+}
+.font-white{
+	color: #fff;
+}
+.font-grey{
+	color: #ccc;
+}
+.font-grey1{
+	color: #535355;
+}
+.text-center{
+	text-align: center;
+}
+.border-red{
+	border: 1px solid #f00;
+}
+.border-blue{
+	border: 1px solid #99BBF2;
+}
+.address-add{
+	width: 100%;
+	height: 120%;
+	background: #fff;
+	position: absolute;
+	z-index: 50;
+	top:0;
+	left: 0;
+	display: none;
+}
+.address-add-content{
+	width: 85%;
+	height: 90%;
+	margin: 20px auto;
+}
+.address-add-close{
+	width: 100%;
+	height: 20px;
+}
+.close-dialog{
+	font-size: 30px;
+	line-height: 20px;
+	color: #2B626F;
+	float: right;
+}
+.address-add-title{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-weight: 400;
+}
+.address-add-tips{
+	width: 100%;
+	height: 20px;
+	text-align: right;
+}
+.address-add-item{
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+.address-add-item-box{
+	width: 100%;
+	height: 350px;
+}
+
+.address-add-item-box select{
+	width: 30%;
+	height: 38px;
+	margin-top: 20px;
+}
+.margin-right3{
+	margin-right: 3%;
+}
+.input-normal{
+	height: 38px;
+	width: 99%;
+	color: #535355;
+	text-indent: 20px;
+	margin-top: 20px;
+}
+.select-left{
+	height: 54px;
+	width: 32%;
+	color: #535355;
+	text-indent: 20px;
+	margin-top: 20px;
+	margin-right: 2%;
+	float: left;
+}
+.select-right{
+	height: 54px;
+	width: 32%;
+	color: #535355;
+	text-indent: 20px;
+	margin-top: 20px;
+	float: right;
+}
+.address-add-confirm{
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+}
+.address-add-confirm .submit{
+	background: #2B626F;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 1.2rem;
+	border: none;
+}

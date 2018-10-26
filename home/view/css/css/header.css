@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+}
+
+.header{
+      width: 100%;
+      height: 118px;
+      background:#292929;
+      margin:0 ;
+    }
+    .content{
+      width: 1176px;
+      height: 118px;
+      background:#292929;
+      margin: auto;        
+    }
+
+    
+    .content_left{
+      width: 18%;
+      height: 72px;
+      background:#292929 ;
+      float: left;
+      margin-top:18px; 
+
+    }
+
+
+    .content_right{
+      width: 45%;
+      height: 72px;
+      background:#292929 ;
+      float: right;
+      margin-top: 18px;
+    
+    }
+
+
+    .invagation_list{
+      width: 520px;
+      height: 30px;
+      background: #292929;
+      text-indent: 20px;
+      margin-bottom: 12px;
+      float: right;
+
+    }
+     .weixin-weibo-all{
+      width: 350px;
+      height:50px;
+      background: #292929;
+      float: right;
+
+
+  }
+    .pcpbbar{
+      width: 100%;
+      height: 60px;
+      background: #3A626C; 
+      text-align: center;
+     }
+
+    
+     .header_text{
+      line-height: 30px;
+      font-size:14px; 
+      color: #fff;
+      text-align: center;                    
+        }
+
+    .search_box{
+      background: #202020 url("../images/search_logo.png") no-repeat right;
+      border: 1px solid #fff ;
+      width: 200px;
+      height: 30px;
+      text-indent: 8px;
+      float: right;
+    }
+
+     .weixin-weibo-all a{ 
+      color: #fff;
+      width: 60px;
+      font-size: 14px;
+      display: block;
+      border-bottom:1px dashed #fff;
+      text-decoration: none;
+      float: left;
+
+
+     }
+
+         
+        .header a{ 
+          color: #fff;
+          font-size: 14px;
+          text-decoration: none;
+         }
+   
+    .shopaddress{
+      width: 76px;
+      height: 19px;
+      float: left;
+      
+        padding: 0 15px;
+    }
+
+    .service{
+      height: 19px;
+      float: left;
+      border-left:1px solid#fff;
+      padding-right: 10px;
+    }
+       
+        .e-magzine{
+      
+      height: 19px;
+      float: left;
+    
+      
+      border-right:1px solid#fff;
+      padding-right: 15px;
+    }
+
+      .login-regis{     
+      height: 19px;
+      float: left;
+    
+      border-right:1px solid#fff;
+      padding-right: 15px;
+
+    }
+
+      .shopping-bag{
+      width: 100px;
+      height: 26px;
+      float: left;
+      background: url("../images/shopping_bag.png") no-repeat right;
+      
+    } 
+
+           .header_weibo{
+            float: left;
+            
+
+           }
+            .header_weixin{
+            float: left;
+             padding-left: 15px;
+             padding-right: 15px;
+           }

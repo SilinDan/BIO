@@ -1,0 +1,216 @@
+.bg{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	background: #292929;
+}
+.log-bg{
+	height: 390px;
+	max-width: 1178px;
+	width: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.log-left{
+	width: 62.8%;
+	height: 390px;
+	/*background: #f00;*/
+	float: left;
+}
+.log-right{
+	width: 37.2%;
+	height: 390px;
+	background: #2B626F;
+	float: right;
+}
+.log-left-content{
+	width: 92%;
+	height: 326px;
+	margin: 32px auto;
+}
+.login-content-header{
+	width: 100%;
+	height: 50px;
+	font-size: 24px;
+	color: #535355;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.login-content-left{
+	width: 31%;
+	height: 235px;
+	float: left;
+}
+.login-content-center{
+	width: 19%;
+	height: 117px;
+	float: left;
+}
+.login-content-right{
+	height: 93px;
+	width: 31%;
+	float: left;
+}
+.input-id{
+	height: 45px;
+	width:210px;
+	color: #535355;
+	text-indent: 20px;
+}
+.input-pwd{
+	height: 45px;
+	width: 210px;
+	color: #535355;
+	margin-top: 20px;
+	text-indent: 20px;
+}
+.a-forgetpwd{
+	font-size: 13px;
+	color: #808080;
+	margin-top: 20px;
+}
+.a-forgetpwd:hover{
+	text-decoration: none;
+}
+.autolog-div{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+}
+.input-autolog{
+	height: 10px;
+	width: 10px;
+	margin-left: 20%;
+	vertical-align:middle;
+}
+.span-remember{
+	font-size: 13px;
+	color: #808080;
+	vertical-align:middle;  
+}
+.login-div{
+	width: 100%;
+	height: 50px;
+	background: #2B626F;
+	margin-top: 17px;
+	border: 1px solid #2B626F;
+    color: #fff;
+}
+.log-in{
+	text-decoration: none;
+	background: #2B626F;
+	height: 50px;
+	width: 160px;
+	display: block;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+}
+.login-content-center .split-line-div{
+    height: 117px;
+    width: 100%;
+    margin-left: 5%;
+}
+.login-content-center .split-line{
+    height: 50px;
+  	width: 1px;
+    background: #808080;
+    margin: 0 auto;
+}
+.login-content-center .split-line-text{
+	font-size: 12px;
+	color: #808080;
+    text-align: center;
+}
+.other-log{
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #535355;
+}
+.other-log-way{
+	width: 100%;
+	height: 73px;
+}
+.login-way{
+	width: 40px;
+	height: 60px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #808080;
+	text-decoration: none;
+}
+.log-right-content{
+	width: 90%;
+	height: 300px;
+	margin: auto;
+	margin-top: 12px;
+}
+.dialog-close{
+	height: 20px;
+	width: 100%;
+}
+.close-dialog{
+	font-size: 30px;
+	line-height: 20px;
+	color: #fff;
+	float: right;
+}
+.new-user-content{
+	width: 90%;
+	height: 250px;
+	color: #fff;
+	float: left;
+}
+.new-user-title{
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+}
+.p-explain{
+	font-size: 13px;
+	line-height: 20px;
+	color: #fff;
+	margin-top: 30px;
+}
+.register-div{
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+}
+.user-register{
+	text-decoration: none;
+	background: #2B626F;
+	height: 50px;
+	width: 160px;
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+
+.border-red{
+	border: 1px solid #f00;
+}
+.border-blue{
+	border: 1px solid #99BBF2;
+}
+.in_zhuxiao a{
+	color: #fff;
+	text-decoration: none;
+}
+.add_stor_span select{
+	height: 30px;
+	width: 98px;
+}

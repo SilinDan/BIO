@@ -1,0 +1,72 @@
+
+.little-nav {
+    width: 100%;
+    padding: 0 5%;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 50px;
+}
+.little-nav a{
+	display: block;
+	color: #C0C9D9;
+	float: left;
+	padding: 0px 4px;
+	line-height: 60px;
+}
+.little-nav span{
+	display: block;
+	color: #C0C9D9;
+	float: left;
+	padding: 0px 4px;
+	line-height: 60px;
+}
+.mobile-goods-fiflter {
+    margin-top: 6rem;
+    width: 100%;
+    border: 1px solid #E5E5E6;
+	padding:3% 5%;
+}
+.mobile-goods-fiflter span{
+	font-size: 1.8rem;
+	color: #535355;
+}
+.goods-fiflter .glyphicon-plus{
+	float: right;
+}
+.mobile-goods-classify{
+	width: 100%;
+	border-bottom: 1px solid #E5E5E6;
+	padding:3% 6%;
+}
+.mobile-goods-classify span{
+	font-size: 1.8rem;
+	color: #535355;
+}
+.mobile-goods-classify .glyphicon-minus{
+	float: right;
+	color: #C3C3C3;
+}
+.goods-small .span-weight{
+	font-size: 1.2rem;
+}
+
+.goods-small .font-price{
+	color: #2B626F;
+}
+.goods-small button {
+    width: 80%;
+    height: 4rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+.goods-small .konw-detail{
+	background: #fff;
+	color: #111;
+	border: 1px solid #111;
+}
+
+/*.icon-person {
+    margin-left: 15%;
+    margin-top: 1rem;
+    width: 3.5rem;
+    height: 3.2rem;
+}*/

@@ -1,0 +1,69 @@
+body{
+			background-color: #292929;
+		}
+		.brand-main{
+			height: 100%;
+			min-width:768px; 
+			max-width: 1178px;
+			margin: 0 auto;
+			font-family: microsoft yahei,stheiti,Arial,sans-serif;
+			background-color: #fff;
+		}
+		.brand-box{
+			height: 100%;
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.brand-img img{
+			width: 100%;
+		}
+		.brand-img{
+			position: relative;
+		}
+		.brand-img2 .a1{
+			width: 14%;
+		    height: 10%;
+		    position: absolute;
+		    top: 83%;
+		    left: 80%;
+		   /* background-color: #ccc;*/
+		}
+		.brand-img3 .a1{
+			width: 86%;
+		    height: 93%;
+		    position: absolute;
+		    top: 6%;
+		    left: 7%;
+		    /*background-color: #ccc;*/
+		}
+		.brand-img5 a{
+			width: 15%;
+		    height: 5%;
+		    /*background-color: #ccc;*/
+		}
+		.brand-img5 .a1{
+		    position: absolute;
+		    top: 32%;
+		    left: 52%;
+		}
+		.brand-img5 .a2{
+		    position: absolute;
+		    top: 47%;
+		    left: 69%;
+		}
+		.brand-img5 .a3{
+		    position: absolute;
+		    top: 88%;
+		    left: 14%;
+		}
+		.brand-img5 .a4{
+		    position: absolute;
+		    top: 88%;
+		    left: 42%;
+		}
+		.brand-img5 .a5{
+		    position: absolute;
+		    top: 88%;
+		    left: 70%;
+		}

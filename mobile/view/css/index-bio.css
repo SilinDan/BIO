@@ -1,0 +1,129 @@
+
+.index-bio-bai{
+	height: 20px;
+	min-width:1192px; 
+	max-width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+}
+.index-bio-img{
+	height: 150px;
+	min-width:1192px; 
+	max-width: 1280px;
+	margin: 0 auto;
+	background: #fff url("../images/icon14.png") no-repeat ;
+}
+
+.index-bio-img-link{
+	margin-left: 20px;
+	margin-right: 25px;
+	height: 150px;
+	width: 380px;
+	float: left;
+}
+.index-single-box{
+	height: 620px;
+	min-width:1192px; 
+	max-width: 1280px;
+	margin: 0 auto;
+	font-family: microsoft yahei,stheiti,Arial,sans-serif;
+	background: #fff;
+}
+.index-single-box a{
+	text-decoration: none;
+	color: #535355;
+}
+.index-single-box-top{
+	height: 80px;
+	min-width:1280px; 
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 38px;
+	line-height: 80px;
+	color: #535355;
+}
+.index-single-botton{
+	height: 510px;
+	min-width:300px; 
+	max-width: 320px;
+	margin: 0 auto;
+	background: #fff;
+	float: left;
+}
+.index-single-botton img{
+	height: 340px;
+	width: 320px;
+}
+.isb-introduce{
+	width: 320px;
+	height: 430px;
+}
+.isb-introduce-man{
+	height: 21px;
+	width: 58px;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	top: 45px;
+	line-height: 21px;
+	text-align: center;
+}
+.isb-introduce-name{
+	height: 35px;
+	width: 320px;
+	color: #535355;
+	font-size: 16px;
+	text-align: center;
+}
+.isb-introduce-star{
+	height: 30px;
+	width: 320px;
+	color: #535355;
+	font-size: 16px;
+	text-align: center;
+}
+.isb-introduce-star img{
+	height: 20px;
+	width: 20px;
+}
+.isb-price{
+	height: 30px;
+	width: 320px;
+	text-align: center;
+	font-size: 23px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #535355;
+}
+.isb-buy{
+	height: 50px;
+	width: 320px;
+}
+.isb-buy-name{
+	height: 50px;
+	width: 150px;
+	background: #2B626F;
+	color: #fff;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 600;
+	border: 1px solid #2B626F;
+}
+.index-single-box-left{
+	height: 65px;
+	width: 35px;
+	position: relative;
+	left: 20px;
+	top: 160px;
+	background: url("../images/index-single-box5.png") no-repeat left center;
+}
+.index-single-box-right{
+	height: 65px;
+	width: 35px;
+	position: relative;
+	left: 1220px;
+	top: 95px;
+	background: url("../images/index-single-box6.png") no-repeat left center;
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="css/pintuer.css">
+<link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" type="text/css" href="css/conment.css">
+<script src="js/jquery.js"></script>
+<script src="js/ling_bio.js"></script>
+<script src="js/pintuer.js"></script><!-- 
+<script src="js/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap/3.3.6/bootstrap.min.css"> -->
+
+
+<style type="text/css">
+  .panel-head input{
+    height: 25px;
+    width: 120px;
+    color: #949494;
+    margin-left: 10px;
+    float: right;
+  }
+  .panel-head select{
+    height: 25px;
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+  }
+  .icon-plus-square-o{
+    height: 30px;
+    line-height: 0px;
+  }
+  .text-center tr{
+    height: 20px;
+  }
+  .text-center td{
+    border-left: 1px solid #F8F0F1; 
+    /*border-right: 1px solid #F8F0F1;  */
+  }
+  .border-red{
+  margin-top: 1px;
+  height: 30px;
+  line-height: 0px;
+}
+.border-bule{
+  margin-top: 1px;
+  height: 30px;
+  line-height: 0px;
+}
+.search li{
+  line-height: 0px;
+}
+.icon-plus-square-o{
+  padding-top: 9px;
+}
+</style>
+</head>
+<body>
+<form method="post" action="" id="listform">
+  <div class="panel admin-panel">
+    <div class="panel-head">
+        <strong class="icon-reorder"> 商品规格 </strong>
+        <span style="font-size: 0.9em;padding-left: 10px;color: #949494;"> 
+            商品规格及管理
+        </span>  
+        <a href="" style="float:right; display:none;">添加字段</a>
+    </div>
+    <div class="panel-prompt1">
+      <div class="panel-prompt-title"><img src="./images/2018-09-20_201558.png"><span class="span-prompt-title">操作提示</span></div>
+      <p class="p-prompt-text"><span style="color: #F1B7CA;">.</span> 商品模型是用来规定某一类商品共有规商品规格是购买商品时给用户选择的，涉及到价格变动库存等，例如：衣服的 颜色 尺寸 等</p>
+    </div>
+    <div class="panel-head" style="border: none;">
+        <strong > 规格列表 </strong>
+        <!-- <span class="glyphicon glyphicon-refresh"></span>   -->
+        <input type="submit" name="" value="搜索" style="height: 25px;width: 40px;font-size: 0.9em;text-align: center;line-height: 25px;">
+       
+        <select name="send-style" placeholder="所有模型" >
+          <option>所属模型</option>
+          <option>套餐</option>
+          <option>合约套餐</option>
+          <option>颜色</option>
+          <option>尺码</option>
+          <option>选择瓦数</option>
+          <option>尺寸</option>
+          <option>内存</option>
+        </select>
+         
+    </div>
+
+    <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;height: 35px;margin-bottom: 0px;">
+         <button type="button" class="button border-red" onclick="DelSelect()"><span class="icon-trash-o"></span> 批量删除</button>
+        <li> <a class="button border-main icon-plus-square-o" href="add.html"> 添加订单</a> </li>
+       <li> <a class="button border-main icon-plus-square-o" href="add.html"> 添加订单</a> </li>
+      </ul>
+    </div>
+
+    <table class="table table-hover text-center">
+      <tr style="background: #F5F5F5;">
+        <td width="50px" style="text-align:left; padding-left:20px;"><input type="checkbox" id="checkall" value="" />
+           </td>
+        <th width="80px" style="text-align:left; padding-left:20px;">id</th>
+        <th width="10%">规格名称</th>
+        <th width="100px">所属模型</th>
+        <th>规格项</th>
+        <th>筛选</th>
+        <th >排序</th>
+        <th>操作</th>
+        <th></th>
+        <th width="400px;"></th>
+      </tr>
+      <volist name="list" id="vo">
+
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <!-- <span class="glyphicon glyphicon-ok-sign"></span> -->
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #ABABAA;">否</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #ABABAA;">否</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #00C5A2;">是</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+        <tr cellspacing="0" cellpadding="0" id="hang" onclick="checkhang(this)">
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="list[]" value="" />
+           </td>
+          <td >26</td>
+          <td width="10%">套餐</td>
+          <td>运营商</td>
+          <td>微型卡、普通卡</td>
+          <td style="color: #ABABAA;">否</td>
+          <td><input type="text" name="" value="50" style="width: 50px;"></td>
+          <td onclick="delete_shopbox1(this)">删除</td>
+          <td>编辑</td>
+          <th width="400px;"></th>
+        </tr>
+
+   		 
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+
+//搜索
+function changesearch(){	
+		
+}
+
+//单个删除
+function del(id,mid,iscid){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+
+//全选
+$("#checkall").click(function(){ 
+  $("input[name='id[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+//批量删除
+// function DelSelect(){
+// 	var Checkbox=false;
+// 	 $("input[name='id[]']").each(function(){
+// 	  if (this.checked==true) {		
+// 		Checkbox=true;	
+// 	  }
+// 	});
+// 	if (Checkbox){
+// 		var t=confirm("您确认要删除选中的内容吗？");
+// 		if (t==false) return false;		
+// 		$("#listform").submit();		
+// 	}
+// 	else{
+// 		alert("请选择您要删除的内容!");
+// 		return false;
+// 	}
+// }
+
+//批量排序
+function sorts(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){	
+		
+		$("#listform").submit();		
+	}
+	else{
+		alert("请选择要操作的内容!");
+		return false;
+	}
+}
+
+
+//批量首页显示
+function changeishome(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");		
+	
+		return false;
+	}
+}
+
+//批量推荐
+function changeisvouch(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");	
+		
+		return false;
+	}
+}
+
+//批量置顶
+function changeistop(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){		
+		
+		$("#listform").submit();	
+	}
+	else{
+		alert("请选择要操作的内容!");		
+	
+		return false;
+	}
+}
+
+
+//批量移动
+function changecate(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){		
+		
+		$("#listform").submit();		
+	}
+	else{
+		alert("请选择要操作的内容!");
+		
+		return false;
+	}
+}
+
+//批量复制
+function changecopy(o){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){	
+		var i = 0;
+	    $("input[name='id[]']").each(function(){
+	  		if (this.checked==true) {
+				i++;
+			}		
+	    });
+		if(i>1){ 
+	    	alert("只能选择一条信息!");
+			$(o).find("option:first").prop("selected","selected");
+		}else{
+		
+			$("#listform").submit();		
+		}	
+	}
+	else{
+		alert("请选择要复制的内容!");
+		$(o).find("option:first").prop("selected","selected");
+		return false;
+	}
+}
+
+</script>
+</body>
+</html>

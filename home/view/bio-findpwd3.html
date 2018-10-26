@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>碧欧泉修改密码-修改密码</title>
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer_sv.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/bio-register.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/bio_try.css">
+    <link rel="stylesheet" type="text/css" href="./css/bio_service.css">
+    <link rel="stylesheet" type="text/css" href="css/regs-bio-add.css"/>
+
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script src="./js/checkcode.js"></script>
+    <script src="./js/resg-bio.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/E-zine.css">
+    <script src="./js/shopUpDown.js"></script>
+    <script type="text/javascript" src="./js/E-zine.js"></script>
+
+
+   <style type="text/css">
+   	 .repwdcontent{
+   	 	width: 100%;
+   	 	overflow: hidden;
+   	 	float: left;
+
+   	 }
+   	  .repwd_auth{
+	  	font-size: 14px;
+	  	color: #808080;
+	  	line-height: 50px;
+	    overflow: hidden;
+	    margin-bottom: 50px;
+	  }
+	  .reset_password_step_indicator{
+	    width: 20%;
+        display: inline-block;
+	  	float: left;
+	  	margin: 0 4.2213% 30px 0%;
+	  	height: 40px;
+	  	color: #ccc;
+	  	border-bottom-style: groove;
+	  }
+	 .reset_password_step_indicator .label:first-child{
+	margin-left: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+	 }
+	  .reset_password_step_indicator .label{
+	 font-size: 14px;
+
+	 }
+	 .resetpwdstep{
+	   
+	 	width: 256px;
+	 	margin:0 auto;
+	 }
+	 .resetpwd_input{
+	 	width: 298px;
+	 	height: 48px;
+	 	text-indent: 20px;
+	   
+	 }
+	 .repwd_process{
+	 	float: left;
+	 	width: 75%;
+	 }
+     .retips{
+     	font-size: 18px;
+     	color: #535355;
+
+     }
+     .codes{
+     	margin-top: 20px;
+
+     }
+     .confirm{
+     	width: 160px;
+     	height: 50px;
+     	background: #2B626F;
+     	font-size: 18px;
+     	color: #fff;
+     	margin-top: 20px;
+     	border: 0;
+     }
+    .getcode{
+    	width: 220px;
+     	height: 50px;
+     	background: #535355;
+     	font-size: 18px;
+     	color: #fff;
+     	border: 0;
+    }
+   .active_step {
+    color: #000;
+    border-color: #000;
+    background-color: #fff;
+}
+
+.moblie-resg-bio-qiangdu{
+			height: 20px;
+			width:298px;
+	
+			margin-top: 10px;
+	       
+			background: #f5f5f5;
+			border-radius: 5px;
+			border-left: 5px #D9534F solid;
+		}
+
+   </style>
+</head>
+<body>
+	
+	<div class="subscribe">
+		<button class="subscribe_close">×</button>
+		<div class="subscribe_ok">订阅成功，感谢您的订阅</div>
+		<div class="subscribe_href"><a href="index.v.php">继续购物</a></div>
+		<span>还没有账号？</span>
+		<div class="subscribe_href"><a href="bio-register.php">立即注册</a></div>
+	</div>
+	<div class="body_box"></div>
+	<div class="E_zine">
+			<div class="E_zine_main">
+				<button class="close_E-zine" >×</button>
+				<div class="E_Zine_cnt">
+					<div class="title">
+						<span >订阅电子杂志</span><br />
+						<span style="font-size: 14px;">提交您的邮箱地址，获取法国碧欧泉最新资讯、官方特惠礼遇！</span>
+					</div>
+					<div class="cnt_Email">
+						<span class="user_email">您的邮箱 </span>
+						<input id="user_email" type="text" placeholder="请输入邮箱"/>
+						<button class="sub" type="submit"></button>
+		
+					</div>
+					<span class="tips_email"></span><br />
+					<div class="E_zine_btm">
+		
+						<div class="choose_box"><input type="checkbox"  class="choose" name="NO" /></div>
+						<div class="choose_box">
+							<span>我同意依照本<a href="http://policy.lorealchina.com/termsofusewebsite">使用条款</a>和<a href="http://policy.lorealchina.com/privacypolicy">隐私政策</a>对我的个人信息进行收集和使用；我已阅读并确认被给予充</span><br />
+							<span>分机会理解该<a href="http://policy.lorealchina.com/termsofusewebsite">使用条款</a>和<a href="http://policy.lorealchina.com/privacypolicy">隐私政策</a>的内容。</span><br />
+							<span class="tips_choos"></span>
+						</div>
+						
+					</div>
+				</div>	
+			</div>
+	</div>	
+	<div class="header">
+					<div class="content">
+					  <div class="content_left">
+					  	           <a href="http://www.biotherm.com.cn/landing/women.html"><img src="./images/header_logo.png" title="Biotherm碧欧泉官方网上商城"></a>
+					  </div>
+					  <div class="content_right">
+								 <div class="invagation_list">
+									
+										<div class="shopaddress"><a href="">专柜地址</a> </div>
+										<div class="service"><a href="bio-service.php">客服中心</a></div>
+										<div class="e-magzine"><a id="e-magzine" href="#">订阅电子杂志</a> </div>
+										<div class="login-regis" id="login-regis"><a href="#">登陆与注册</a></div>
+									     <div class="shopping-bag"><a href="">购物袋</a></div>
+								 </div>
+							     <div class="weixin-weibo-all">
+							        <img  class="header_weibo" src="./images/weibo.png">
+							     	<img  class="header_weixin" src="./images/weixin.png">
+
+							     	<a href="">全部产品</a>
+							     	 <input type="text" class="search_box" placeholder="绿活泉" name="search"   value=""/>
+		                           </div>  
+		                           <div>
+		                           
+							      </div>
+			          </div>
+				    </div>				
+			   </div>
+
+<div class="re_pcpbbar">
+		    					<a href="http://www.biotherm.com.cn/landing/backtoschool.html"><img src="./images/wpb201808301.jpg"></a>
+			   </div>
+
+
+
+
+
+
+
+
+
+
+	<div class="se_background">
+		<div class="se_content">
+			<div class="repwd_auth">
+				<span><a href="">首页  > </a> 找回密码</span>
+				<img src="./images/resetpassword.png">
+			</div>
+		
+        <div class="repwdcontent">
+            <div class="repwd_process">
+            	<div class="reset_password_step_indicator ">
+					<span class="label">1</span>
+					<span class="label"><b>选择找回方式</b></span>
+					</div>		
+						<div class="reset_password_step_indicator ">
+				<span class="label">2</span>
+				<span class="label"><b>确认验证信息</b></span>
+				</div>
+								<div class="reset_password_step_indicator active_step">
+				<span class="label">3</span>
+				<span class="label"><b>修改密码</b></span>
+				</div>
+								<div class="reset_password_step_indicator ">
+				<span class="label">4</span>
+				<span class="label"><b>修改成功</b></span>
+				</div>
+
+				<div class="resetpwdstep">
+					
+					<form>
+                       <table>
+                       	<tr>
+								<td colspan="2">
+									<div class="tips_box">
+										<input class="resetpwd_input" id="pwd1" placeholder="密码*" type="text" name="pwd" onblur="checkpwd1()" />
+										
+										<div class="moblie-resg-bio-qiangdu">
+									
+										<div id="mrbq-red">密码强度</div>
+										
+									</div>
+								
+
+										<div class="tips pwd1"></div>
+									
+								</td>
+							</tr>
+
+							<tr >
+								<td colspan="2">
+									<div class="tips_box">
+										<input class="resetpwd_input" id="pwd2" placeholder="确认密码*" type="text" name="pwd2" onblur="checkpwd2()" />
+									
+											
+									<div class="moblie-resg-bio-qiangdu">
+										<div id="mrbq-red1">密码强度</div>
+										
+									</div>
+									
+							
+										<div class="tips pwd2"></div>
+									</div>
+									
+	             				</td>
+	             				
+							</tr>
+                       </table>
+
+				    </form>
+
+                 <input type="submit" name="" class="confirm" value="提交">
+                 
+				
+			</div>
+              
+            </div>
+         
+        	<div class="order-footer">
+							<div class="order-footer-content">
+							 <div class="term-contaction">联系我们 <a href="" class="a-help-center">帮助中心></a></div>
+								<p>我们提供一周7天服务</p>
+								<p>（9:00 - 21:00）</p>
+								<p>官网订购热线：4008215518</p>
+								<p>顾客关怀中心：4008205215</p>
+								<p>欧莱雅中国有限公司</p>
+								<p>地址：上海市静安区南京西路1601号</p>
+							</div>
+						</div>
+
+           </div>
+
+          
+
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div id="footer_box">
+			<div id="footer_box_img">
+				<div id="img1">100%官方正品保证</div>
+				<div id="img2">支持多种支付方式<br>
+				在线支付免运费</div>
+				<div id="img3">专享官网特惠礼遇</div>
+				<div id="img4">线上线下积分共享</div>
+			</div>
+			<div id="footer_box_mailbox">
+				<div id="footer_box_mailbox1">
+					<div id="text1">
+						<span>订阅电子杂志</span>
+					</div>
+					<div id="text_input">
+						<input id="input1" type="text" name="" placeholder="输入您的邮箱">
+						<input id="input3" type="image" src="images/2018-09-10_202455.png" name="img">
+						<input id="input2" type="checkbox" name="NO"><span style="color: #535355;">我同意依照本<a class="subscribe_href_a" href="http://policy.lorealchina.com/termsofusewebsite">使用条款</a>和<a class="subscribe_href_a" href="http://policy.lorealchina.com/privacypolicy">隐私政策</a>对我的个人信息进行收集和使用；我已阅读并确认被给予充分机会理解该<a class="subscribe_href_a" href="http://policy.lorealchina.com/termsofusewebsite">使用条款</a>和<a class="subscribe_href_a" href="http://policy.lorealchina.com/privacypolicy">隐私政策</a>的内容。</span><br />
+						<span class="tips_1" id="tips_1"></span><span class="tips_2" id="tips_2"></span>
+					</div>
+				</div>
+				<div id="footer_box_mailbox2">
+					<table>
+						<tr id="height_td">
+							<td>脸部护理</td>
+							<td>身体护理</td>
+							<td>防晒隔离</td>
+							<td>品牌故事</td>
+							<td>帮助中心</td>
+							<td>快速订单查询</td>
+						</tr>
+						<tr id="height_td1">
+							<td>活泉系列-保湿</td>
+							<td>凝乳丝滑系列-润肤</td>
+							<td>防晒</td>
+							<td>碧欧泉故事</td>
+							<td>快速订单查询</td>
+							<td id="rowspan_td" rowspan="5">
+								<img src="images/weibo_icon_primary.jpg">
+								<img src="images/wechat_icon_primary.jpg">
+								<img id="td_img" src="images/weibo_icon_primary.jpg">
+								<img src="images/mobile_icon_primary.jpg">
+							</td>
+						</tr>
+						<tr id="height_td1">
+							<td>蓝源系列-抗老</td>
+							<td>光感纤体系列-塑身</td>
+							<td>隔离</td>
+							<td>逾60年致力于护肤</td>
+							<td>常见问题</td>
+						</tr>
+						<tr id="height_td1">
+							<td>奇迹系列-修护</td>
+							<td>保湿香氛系列-香氛</td>
+							<td>气垫</td>
+							<td>碧欧泉灵魂成分</td>
+							<td>联系我们</td>
+						</tr>
+						<tr id="height_td1">
+							<td>滢澈皙白系列-美白</td>
+							<td>阳光欢愉系列-清爽</td>
+							<td></td>
+							<td>碧欧泉的承诺</td>
+							<td>法律信息</td>
+						</tr>
+						<tr id="height_td1">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>网站地图</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="footer_box_safety">
+				<img src="images/footer_payment_methods_icon.jpg">&nbsp;
+				<span>安全支付保障</span>
+			</div>
+			<div id="footer_box_term">
+				<div id="footer_box_term1">
+					<div id="img1">
+						<img src="images/police_badge_icon.jpg">
+						<span>沪ICP备08100043号-26 ©L'Oreal China 欧莱雅 (中国)有限公司版权所有</span>
+						<img src="images/police.png">
+						<span>沪公网安备 31010602001504号</span>
+					</div>
+					<div id="img2">
+						<span>使用条款 | cookies政策 | 隐私声明 | 隐私声明</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+<script type="text/javascript">
+									 	
+									$("#pwd1").keyup(function() { 
+						
+								    	switch($("#pwd1").val().length ){
+								    		case 0: $("#mrbq-red").text("密码强度");
+								    				$("#mrbq-red").removeClass();
+								            		break;
+								      		case 1: $("#mrbq-red").text("非常弱");
+								      				$("#mrbq-red").removeClass();
+								      				$("#mrbq-red").addClass("mrbq-red1");
+								            		break;
+								            case 2: $("#mrbq-red").text("非常弱");
+								      				$("#mrbq-red").removeClass();
+								      				$("#mrbq-red").addClass("mrbq-red1");
+								            		break;
+								           	case 3: $("#mrbq-red").text("非常弱");
+								      				$("#mrbq-red").removeClass();
+								      				$("#mrbq-red").addClass("mrbq-red1");
+								            		break;
+								            case 4: $("#mrbq-red").text("非常弱");
+								      				$("#mrbq-red").removeClass();
+								      				$("#mrbq-red").addClass("mrbq-red1");
+								            		break;
+								           	case 5: $("#mrbq-red").text("非常弱");
+								           			$("#mrbq-red").removeClass();
+								      				$("#mrbq-red").removeClass("mrbq-red2");
+								            		break;	
+								      		case 6: $("#mrbq-red").text("普通");
+								      				$("#mrbq-red").removeClass();
+								               		$("#mrbq-red").addClass("mrbq-red2");
+								              		break;
+								            case 7: $("#mrbq-red").text("普通");
+								            		$("#mrbq-red").removeClass();
+								               		$("#mrbq-red").addClass("mrbq-red21");
+								              		break;
+								      		case 8: $("#mrbq-red").text("中等");
+								      				$("#mrbq-red").removeClass();
+								              		$("#mrbq-red").addClass("mrbq-red3");
+								              		break;
+								            case 9: $("#mrbq-red").text("中等");
+								            		$("#mrbq-red").removeClass();
+								              		$("#mrbq-red").addClass("mrbq-red31");
+								              		break;
+								            case 10:$("#mrbq-red").text("中等");
+								            		$("#mrbq-red").removeClass();
+								              		$("#mrbq-red").addClass("mrbq-red32");
+								              		break;
+								            case 11:$("#mrbq-red").text("中等");
+								            		$("#mrbq-red").removeClass();
+								              		$("#mrbq-red").addClass("mrbq-red33");
+								              		break;
+								      		case 12:$("#mrbq-red").text("强");
+								      				$("#mrbq-red").removeClass();
+								               		$("#mrbq-red").addClass("mrbq-red4");
+								               		break;
+								            case 13:$("#mrbq-red").text("强");
+								            		$("#mrbq-red").removeClass();
+								               		$("#mrbq-red").addClass("mrbq-red41");
+								              		break;
+								            case 14:$("#mrbq-red").text("强");
+								            		$("#mrbq-red").removeClass();
+								               		$("#mrbq-red").addClass("mrbq-red42");
+								              		break;
+
+								            case 15:$("#mrbq-red").text("非常强");
+								               		$("#mrbq-red").addClass("mrbq-red5");
+								              		break;
+								     
+								     }
+								   });
+								</script>
+						
+										
+
+
+								<script type="text/javascript">
+									 	
+									$("#pwd2").keyup(function() { 
+						
+								    	switch($("#pwd2").val().length ){
+								    		case 0: $("#mrbq-red1").text("密码强度");
+								    				$("#mrbq-red1").removeClass();
+								            		break;
+								      		case 1: $("#mrbq-red1").text("非常弱");
+								      				$("#mrbq-red1").removeClass();
+								      				$("#mrbq-red1").addClass("mrbq-red1");
+								            		break;
+								            case 2: $("#mrbq-red1").text("非常弱");
+								      				$("#mrbq-red1").removeClass();
+								      				$("#mrbq-red1").addClass("mrbq-red1");
+								            		break;
+								           	case 3: $("#mrbq-red1").text("非常弱");
+								      				$("#mrbq-red1").removeClass();
+								      				$("#mrbq-red1").addClass("mrbq-red1");
+								            		break;
+								            case 4: $("#mrbq-red1").text("非常弱");
+								      				$("#mrbq-red1").removeClass();
+								      				$("#mrbq-red1").addClass("mrbq-red1");
+								            		break;
+								           	case 5: $("#mrbq-red1").text("非常弱");
+								           			$("#mrbq-red1").removeClass();
+								      				$("#mrbq-red1").removeClass("mrbq-red2");
+								            		break;	
+								      		case 6: $("#mrbq-red1").text("普通");
+								      				$("#mrbq-red1").removeClass();
+								               		$("#mrbq-red1").addClass("mrbq-red2");
+								              		break;
+								            case 7: $("#mrbq-red1").text("普通");
+								            		$("#mrbq-red1").removeClass();
+								               		$("#mrbq-red1").addClass("mrbq-red21");
+								              		break;
+								      		case 8: $("#mrbq-red1").text("中等");
+								      				$("#mrbq-red1").removeClass();
+								              		$("#mrbq-red1").addClass("mrbq-red3");
+								              		break;
+								            case 9: $("#mrbq-red1").text("中等");
+								            		$("#mrbq-red1").removeClass();
+								              		$("#mrbq-red1").addClass("mrbq-red31");
+								            case 10:$("#mrbq-red1").text("中等");
+								            		$("#mrbq-red1").removeClass();
+								              		$("#mrbq-red1").addClass("mrbq-red32");
+								              		break;
+								            case 11:$("#mrbq-red1").text("中等");
+								            		$("#mrbq-red1").removeClass();
+								              		$("#mrbq-red1").addClass("mrbq-red33");
+								              		break;
+								      		case 12:$("#mrbq-red1").text("强");
+								      				$("#mrbq-red1").removeClass();
+								               		$("#mrbq-red1").addClass("mrbq-red4");
+								            case 13:$("#mrbq-red1").text("强");
+								            		$("#mrbq-red1").removeClass();
+								               		$("#mrbq-red1").addClass("mrbq-red41");
+								              		break;
+								            case 14:$("#mrbq-red1").text("强");
+								            		$("#mrbq-red1").removeClass();
+								               		$("#mrbq-red1").addClass("mrbq-red42");
+								              		break;
+
+								            case 15:$("#mrbq-red1").text("非常强");
+								               		$("#mrbq-red1").addClass("mrbq-red5");
+								              		break;
+								     
+								     }
+								   });
+								</script>

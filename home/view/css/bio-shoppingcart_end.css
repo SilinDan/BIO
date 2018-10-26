@@ -1,0 +1,109 @@
+.cart_infobox{
+      width: 1176px;
+      height: 522px;
+      background: #fff;
+      margin: 0 auto;
+     }
+
+     .infobox_content{
+      width: 935px;
+      height: 522px;
+      background: #fff;
+      margin: 0 auto;
+     }
+
+     .infobox_left{
+      width: 680px;
+      height: 502px;
+      background: #fff;
+      float: left;
+      margin-top: 30px; 
+     }
+
+     .infobox_right{
+      width: 216px;
+      height: 522px;
+      background: #fff;
+      float: right;
+     }
+
+  .confirm_box{
+      width: 100%;
+      height: 177px;
+      background: #2B626F;
+ 
+     }
+
+  .topic_font{
+    width: 80%;
+    height: 20%;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 80px;
+    text-indent: 30px;
+  }
+  .info_font{
+    width: 80%;
+    height: 70%;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+  } 
+
+  .amout_font{
+    font-size: 18px;
+    font-weight: 600;
+    color: #535355;"
+  }
+
+   .amount_box {
+    margin-left: 20px;
+    }
+
+
+
+    .amount_box a{
+    color: #292929;
+    text-decoration: underline;
+    font-size: 16px;
+		line-height: 35px;
+    }
+
+
+    .pay{
+    text-decoration: none;
+    background: #2B626F;
+    display: block;
+    height: 50px;width: 200px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    }
+
+    .info_follow{
+            width: 217px;
+            height: 200px;
+            font-size: 14px;
+            text-align: center;
+            text-indent: 10px;
+            color: #535355;
+            background: #F8F8F5;
+            margin-top: 30px;
+            float: left;
+            margin-right: 119px
+    }
+
+      .header-td_one{
+            border-bottom: 2px solid #ccc;
+        }
+       .header-td_two{
+            border-bottom: 2px solid #ccc;
+        }
+      .header-td_three{
+            width: 86px;
+            border-bottom: 2px solid #2B626F;
+        }

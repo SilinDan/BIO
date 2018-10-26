@@ -1,0 +1,104 @@
+			.weixin-weibo-all {
+				width: 352px;
+				height: 30px;
+				background: #292929;
+				float: right;
+			}
+			#detailed_box1 {
+				display: none;
+				height: 210px;
+				position: absolute;
+				top: 228px;
+				z-index: 2;
+				opacity: 0;
+			}
+			#detailed2_box1 {
+				display: none;
+				height: 400px;
+				position: absolute;
+				top: 228px;
+				z-index: 2;
+				opacity: 0;
+
+			}
+			#detailed3_box1 {
+				display: none;
+				height: 400px;
+				position: absolute;
+				top: 228px;
+				z-index: 2;
+				opacity: 0;
+			}
+			.goods-list-all{
+				width: 75%;
+				margin: 0 auto;
+			}
+			.goods-content{
+				background: #fff;
+				overflow: hidden;
+				margin-left: 5px;
+				width: 1176px;
+			}
+			.little-nav{
+				width: 100%;
+				padding: 0 10% ;
+				border-top: 1px solid #E5E5E6;
+			}
+			.little-nav a{
+				display: block;
+				color: #C0C9D9;
+				float: left;
+				padding: 0px 4px;
+				line-height: 60px;
+			}
+			.little-nav span{
+				display: block;
+				color: #C0C9D9;
+				float: left;
+				padding: 0px 4px;
+				line-height: 60px;
+			}
+			.goods-list-bunner{
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-bottom: 10px;
+			}
+			.goods-list-bunner img{
+				width: 100%;
+			}
+			.goods-show-box{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			.left-filter{
+				width: 18%;
+				overflow: hidden;
+				float: left;
+				margin-left: 10%;
+			}
+			i {
+				display: inline-block;
+				vertical-align: middle;
+				border-top: 6px solid #535355;
+				border-bottom: 0 none;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				float: right;
+				transform: rotate(0deg);
+				transform-origin: center center;
+				transform: transform 0.8s ease-in 0s;
+				-webkit-transform: rotate(0deg);
+				-webkit-transform-origin: center center;
+				-webkit-transition: transform 0.3s ease-in 0s;
+				margin-top: 4px;
+			}
+			.right-goods-show{
+				width: 65%;
+				float: left;
+				margin-top: 55px;
+			}
+			.right-goods-show1{
+				width: 65%;
+				float: right;
+				margin-top: 55px;
+			}

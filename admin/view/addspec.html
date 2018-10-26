@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>规格管理</title>  
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/pintuer.js"></script>  
+		<style>
+			.form-x .form-group .label {
+    width: 15%;
+		}
+		.input {
+
+    font-size: 14px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    width: 50%;
+    line-height: 0px;
+    display: block;
+    border-radius: 3px;
+    -webkit-appearance: none;
+
+}
+		.select {
+
+    font-size: 14px;
+    padding: 10px;
+    border: solid 1px #ddd;
+    width: 20%;
+    line-height: 0px;
+    display: block;
+    border-radius: 3px;
+    -webkit-appearance: none;
+
+}
+i{
+    content: "*";
+    color: #ff4949;
+    margin-right: 4px;
+}
+.input-control {
+	overflow: hidden;
+	text-align: center;
+}
+.input-control::before {
+	content: '*';
+    position: absolute;
+    margin-left: 10px;
+    color: #f00;
+    transition: all .25s; /* IE10+ */
+    line-height: 20px;
+}
+
+		</style>
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 规格管理</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="">
+      <div class="form-group">
+        <div class="label">
+         <label ><div class="input-control iconfontyyy"></div>规格名称</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input" name="spec" value="" />
+          <div class="tips"></div>
+        </div>
+      </div>
+    <div class="form-group">
+    	<div class="label">
+    		<label>所属商品模型：</label>
+    	</div>
+    	<div class="field">
+			<select name="" >请选择
+				<option value="请选择">请选择</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
+    		<div class="tips"></div>
+    	</div>
+    </div>
+              
+      <div class="form-group">
+        <div class="label">
+          <label>底部信息：</label>
+        </div>
+        <div class="field">
+          <textarea name="bottom_information" class="input" style="height:120px;"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+			<div class="form-group">
+				<div class="label">
+					<label>排序</label>
+				</div>
+				<div class="field">
+					<input type="text" class="input" name="stitle" value="" />
+					<div class="tips"></div>
+				</div>
+			</div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body></html>
+<script src="" type="text/javascript" charset="utf-8"></script>

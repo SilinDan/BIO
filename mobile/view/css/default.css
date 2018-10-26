@@ -1,0 +1,218 @@
+
+			.mobile-top{
+				width: 100%;
+				height: 50px;
+				background: #292929;
+			}
+			.mobile-top .logo {
+				background: url(../images/logo-primary-mobile.png) no-repeat 0 0;
+				background-size: auto auto;
+				width: 126px;
+				height: 25px;
+				background-size: contain;
+				display: block;
+				margin-left: 36%;
+				margin-top:-2.5rem;
+			}
+			.mobile-header{
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 150px;
+				background: #fff;
+				z-index: 90000;
+			}
+			.icon-person{
+				margin-left: 15%;
+				margin-top: 1.5rem;
+				width: 2.5rem;
+				height: 2.5rem;
+			}
+			.icon-list{
+				margin-left: 3%;
+				margin-top: 1rem;
+				width: 3.1rem;
+				height: 3rem;
+			}
+			.icon-search {
+				margin-left: 80%;
+				margin-top: -5rem;
+				width: 2.5rem;
+				height: 2.5rem;
+			}
+			.icon-shoping{
+				margin-top: -5.1rem;
+				margin-left: 2%;
+				width: 2.5rem;
+				height: 2.5rem;
+			}
+			.mobile-input{
+				width: 100%;
+			}
+			.mobile-input-serach{
+				margin: 0 auto;
+				padding: 2rem;
+			}
+			.mobile-input-serach input{
+				border: 1px solid #535355;
+				width: 86%;
+				height: 3.5rem;
+				padding: 1rem;
+			}
+			.mobile-input-serach button {
+				width: 3.5rem;
+				height: 3.5rem;
+				border: none;
+				position: relative;
+				left: -0.5rem;
+				top: -0.5rem;
+				background:#2B626F url(../images/search.png) no-repeat center;
+			}
+			.mobile-gift{
+				width: 100%;
+				padding:4rem 1rem;
+			}
+			.mobile-tehui-small {
+				border: 2px solid #1B6D85;
+				width: 48%;
+				height: 4.5rem;
+				float: left;
+				padding: 1rem;
+			}
+			.mobile-mane-small {
+				border: 2px solid #1B6D85;
+				width: 48%;
+				height: 4.5rem;
+				float: right;
+				padding: 1rem;
+			}
+			.font-tehui{
+				font-size: 15px;
+				color: #535355;
+			}
+			.bootstrap-icon {
+				float: right;
+			}
+			.glyphicon-gift{
+				color: #1B6D85;
+				font-size: 2.5rem;
+			}
+			.glyphicon-chevron-right{
+				color: #1B6D85;
+				font-size: 2.5rem;
+			}
+			.glyphicon-signal{
+				color: #1B6D85;
+				font-size: 2.5rem;
+			}
+			.mobile-star-goods{
+				margin: 0 auto;
+				text-align: center;
+				margin-bottom: 3rem;
+				width: 100%;
+				overflow: hidden;
+			}
+			.mobile-star-goods h1{
+				font-size: 3.5rem;
+				color: #535355;
+				margin-top: 2rem;
+			}
+			.goods-bunner{
+				width: 100%;
+				overflow: hidden;
+			}
+			.goods-small{
+				width: 50%;
+				padding: 2%;
+				float: left;
+			}
+			.goods-small img{
+				width: 100%;
+			}
+			.goods-small .span-font {
+				font-size: 1.8rem;
+				font-weight: 400;
+				font-style: normal;
+				line-height: 30px;
+				color: #353535;
+			}
+			.goods-small button{
+				width: 70%;
+				height: 5rem;
+				border: none;
+				background: #2B626F;
+				color: #fff;
+			}
+			.goods-small .font-price{
+				font-weight: 600;
+				font-size: 2.5rem;
+			} 
+			.glyphicon-star{
+				color: #2B626F;
+				font-size: 1.2rem;
+				line-height: 30px;
+			}
+			.mobile-footer-zhifubao{
+				width: 100%;
+				overflow: hidden;
+				background: #292929;
+			}
+			.mobile-footer-zhifubao .footer-font-white{
+				color: #FFFFFF;
+				font-size: 1.2rem;
+				line-height: 50px;
+			}
+			.mobile-footer-zhifubao .footer-car-content{
+				margin: 0 auto;
+				text-align: center;
+			}
+			.mobile-footer-call{
+				width: 100%;
+				border-bottom: 1px solid #DDDDDD;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.mobile-footer-call span {
+				font-size: 1.2rem;
+				color: #535355;
+				line-height: 26px;
+			}
+			.mobile-footer-about{
+				width: 100%;
+				overflow: hidden;
+				margin: 0 auto;
+				text-align: center;
+				padding: 2rem 0 5rem 0;
+				
+			}
+			.mobile-footer-about span{
+				font-size: 1.2rem;
+				color: #535355;
+				line-height: 30px;
+			}
+			.use-underline{
+				text-decoration: underline;
+			}
+			.mobile-bottom{
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				background: #292929;
+				text-align: center;
+			}
+			.mobile-bottom a{
+				display: block;
+				line-height: 4rem;
+				width: 20%;
+				float: left;
+				color: #fff;
+				font-weight: 600;
+				font-size: 2rem;
+				z-index: 999;
+				border-right: 1px solid #2B626F;
+			}
+			
+			.mobile-banner{
+				margin-top: 150px;
+			}
+			

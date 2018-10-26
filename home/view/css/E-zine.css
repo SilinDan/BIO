@@ -1,0 +1,183 @@
+.E_zine{
+	display: none;
+    width: 100%;
+    height: 400px;
+    background: #292929;
+    
+}
+.E_zine_main{
+	width: 74%;
+    height: 400px;
+    background: #fff;
+    margin:0 auto;
+}
+
+.close_E-zine{
+	float: right;
+	background: #fff;
+	border:none;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	margin: 10px 10px;
+
+}
+.E_Zine_cnt{
+	width: 80%;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+}
+.title{
+	width: 80%;
+	height:20px;
+	margin-left: 30px; 
+	font-size: 22px;
+	color: #535355;
+	float: left;
+}
+.cnt_Email{
+	width: 80%;
+	height: 50px;
+	margin-top:70px;
+	margin-left:  30px ;
+	
+	line-height: 50px;
+
+}
+.user_email{
+	float: left;
+	font-size: 14px;
+	color: #535355;
+}
+#user_email{
+	float: left; 
+	width: 200px;
+	height: 45px;
+	margin-left: 20px;
+	text-indent: 20px;
+	border: 1.5px #E5E5E6 solid;
+}
+.sub{
+	float: left
+	;width: 50px;
+	height: 50px;
+	border: none;
+	background: #2B626F url("../images/2018-10-16_163939.png") no-repeat  center;
+}
+
+.E_zine_btm{
+	width: 80%;
+	height: 50px;
+	margin-left: 100px;
+	
+	float: left;
+	font-size: 14px;
+	color: #535355;
+}
+.choose{
+	width: 20px;
+	height: 20px;
+
+}
+.choose_box{
+	float: left;
+}
+.choose_box a{
+	color: #535355;
+}
+.choose_box a:hover{
+	text-decoration: none;
+}
+.tips_email{
+	float: left;
+	color: #f00;
+	font-size: 14px;
+	margin-left:103px;
+}
+.tips_choos{
+	float: left;
+	font-size: 14px;
+	color: #f00;
+	margin-left: -24px;
+}
+.subscribe{
+	width: 670px;
+    height: 470px;
+    background: #fff;
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+    left: 460px;
+    top: 90px;
+    z-index: 11;
+    display: none;
+}
+.subscribe_2{
+	width: 670px;
+    height: 470px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+   left: 460px;
+    top: -680px;
+    z-index: 11;
+   display:none;
+}
+
+   
+.subscribe_close{
+	width: 30px;
+	height: 30px;
+	float: right; 
+	font-size: 20px;
+	border: none;
+	background: #fff;
+}
+.subscribe_ok{
+	width: 590px;
+	height: 115px;
+	background: #2B626F;
+	line-height: 115px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	margin: 75px auto;
+}
+.subscribe_href{
+	width: 282px;
+	height: 52px;
+	margin: 20px auto;
+	line-height: 52px;
+	font-size: 14px;
+	border:1px #000 solid;
+}
+
+.subscribe_href a{
+	color: #535355;
+	text-decoration: none;
+}
+.subscribe_href_a{
+	color: #535355;
+}
+.subscribe_href_a:hover{
+	text-decoration:none;
+}
+.tips_1{
+	font-size: 10px;
+	color: #f00;
+}
+.tips_2{
+	position: absolute;
+	left: 242px;
+}
+.body_box{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.7;
+	display: none;
+	position:fixed;
+	z-index: 10;
+}

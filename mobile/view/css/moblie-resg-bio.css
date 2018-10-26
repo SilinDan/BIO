@@ -1,0 +1,232 @@
+.moblie-resg-bio-box{
+			height: 40px;
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+		.mrbb-name{
+			height: 35px;
+			width: 100%;
+			border: 1px solid #E5E5E6;
+			padding-left: 5%;
+			line-height: 35px;
+			color: #535355;
+			font-size: 0.9em;
+		}
+		.moblie-resg-bio-chock{
+			padding-top: 30px;
+			height: 60px;
+			width: 80%;
+			font-size: 0.9em;
+			color: #535355;
+			font-weight: bold;
+			margin: 0 auto;
+		}
+		.moblie-resg-bio-qiangdu{
+			height: 20px;
+			width: 80%;
+			margin: 0 auto;
+			background: #f5f5f5;
+			border-radius: 5px;
+			border-left: 5px #D9534F solid;
+		}
+		.mrbq-red{
+			height: 100%;
+			border-radius: 4px;
+			width: 30%;
+			float: left;
+			/*background:  #D9534F ;*/
+			/*text-align: center;*/
+			text-indent: 0.5rem;
+			margin-left: -4px;
+		}
+		.moblie-resg-bio-tis{
+			height: 20px;
+			width: 80%;
+			margin: 0 auto;
+			font-size: 0.9em;
+			color: #C0C0C0;
+			text-align: right;
+		}
+		.mrrb-name{
+			height: 35px;
+			width: 43%;
+			border: 1px solid #E5E5E6;
+			padding-left: 5%;
+			line-height: 35px;
+			color: #535355;
+			float: left;
+			font-size: 0.9em;
+		}
+		.mrrb-pic{
+			height: 35px;
+			width: 25%;
+			border: 1px solid #E5E5E6;
+			float: left;
+			margin-left: 5%;
+		}
+		.mrrb-zi{
+			height: 35px;
+			width: 22%;
+			font-size: 0.9em;
+			float: left;
+			color: #535355;
+			margin-left: 3%;
+			font-weight: bold;
+		}
+		.mrrb-zi a{
+			text-decoration: underline;
+			color: #535355;
+		}
+		.moblie-resg-bio-premit-all{
+			height: 150px;
+			width: 80%;
+			margin: 2rem auto;
+		}
+		.moblie-resg-bio-premit{
+			height: 60px;
+			width: 100%;
+			font-size: 0.9em;
+			color: #535355;
+			font-weight: bold;
+		}
+		.mrbp-zi{
+			height: 60px;
+			width: 94%;
+			float: right;
+		}
+		.mrbb-name-admin{
+			height: 50px;
+			width: 100%;
+			border: 1px solid #535355;
+			padding-left: 5%;
+			line-height: 50px;
+			background: #535355;
+			text-align: center;
+			color: #C0C0C0;
+			font-size: 1.3em;
+		}
+
+		.tips{
+			 position: absolute;
+			 color: #f00;
+			 font-size: 12px;
+			 width: 60%;
+			 height: 20px;
+			 margin:0 10%;
+			 float: left;
+		}
+		.mrbq-red1{
+			height: 100%;
+			border-radius: 4px;
+			width: 20%;
+			float: left;
+			/*//background:  #D9534F ;*/
+			text-indent: 0.5rem;
+			margin-left: -4px;
+		}
+		.mrbq-red2{
+			height: 100%;
+			border-radius: 4px;
+			width: 40%;
+			float: left;
+			background:  #D9534F ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red21{
+			height: 100%;
+			border-radius: 4px;
+			width: 45%;
+			float: left;
+			background:  #D9534F ;
+			text-align: center;
+			margin-left: -4px;
+		}
+	
+		.mrbq-red3{
+			height: 100%;
+			border-radius: 4px;
+			width: 50%;
+			float: left;
+			background:  #F0AD4E ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red31{
+			height: 100%;
+			border-radius: 4px;
+			width: 55%;
+			float: left;
+			background:  #F0AD4E ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red32{
+			height: 100%;
+			border-radius: 4px;
+			width: 60%;
+			float: left;
+			background:  #F0AD4E ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red33{
+			height: 100%;
+			border-radius: 4px;
+			width: 65%;
+			float: left;
+			background:  #F0AD4E ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red4{
+			height: 100%;
+			border-radius: 4px;
+			width: 75%;
+			float: left;
+			background:  #EA9315 ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red41{
+			height: 100%;
+			border-radius: 4px;
+			width: 85%;
+			float: left;
+			background:  #EA9315 ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red42{
+			height: 100%;
+			border-radius: 4px;
+			width: 95%;
+			float: left;
+			background:  #EA9315;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.mrbq-red5{
+			height: 100%;
+			border-radius: 4px;
+			width: 100%;
+			float: left;
+			background:  #5CB85C ;
+			text-align: center;
+			margin-left: -4px;
+		}
+		.border-red{
+			border: 1px solid #f00;
+		}
+		.border-blue{
+			border: 1px solid #99BBF2;
+		}
+		.border-green{
+			color:#1CA340;
+		}
+		.zi{
+		/*	border: 1px solid #f00;*/
+		
+			color: #f00;
+		}

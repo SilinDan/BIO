@@ -1,0 +1,177 @@
+.font-grey{
+	color: #535355;
+}
+.font-grey1{
+	color: #ccc;
+}
+.font-blue{
+	color: #1EA0B3;
+}
+.mobile-order-detial-box{
+	width: 90%;
+	overflow: hidden;
+	margin: 10px auto;
+}
+.mobile-order-detial-top{
+	width: 100%;
+	height: 50px;
+	margin: 10px auto;
+}
+.order-detial-title{
+	width: 50%;
+	height: 35px;
+	line-height: 35px;
+	font-weight: 800;
+	font-size: 2.4rem;
+	float: left;
+}
+.order-detial-pay-box{
+	width: 30%;
+	height: 50px;
+	float: left;
+}
+.order-detial-pay-box a{
+	display: block;
+	background: #2B626F;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin-right: 10px;
+}
+.order-detial-cancel{
+	width: 20%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 1.2rem;
+	float: left;
+	text-align: right;
+}
+.order-detial-cancel a{
+	color: #535355;
+	text-decoration: underline;
+}
+.mobile-order-detial-middle1{
+	width: 100%;
+	height: 130px;
+	background: #FAFBF8;
+}
+.order-detial-middle1-content{
+	width: 95%;
+	height: 120px;
+	font-size: 1.2rem;
+	margin: auto;
+	padding-top: 10px;
+}
+.order-date{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.mobile-order-detial-middle2{
+	width: 100%;
+	height: 60px;
+	font-size: 1.2rem;
+	color: #535355;
+	line-height: 60px;
+	background: #F8F8F5;
+	padding-left: 10px;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+}
+.mobile-order-detial-goods-box{
+	width: 100%;
+	overflow: hidden;
+}
+.order-detial-goods{
+	width: 100%;
+	height: 220px;
+	margin: auto;
+	border-top: 1px solid #808080;
+}
+.order-detial-goods-left{
+	width: 40%;
+	height: 122px;
+	float: left;
+	margin-top: 20px;
+}
+.order-detial-goods-right{
+	width: 55%;
+	height: 180px;
+	font-size: 1.2rem;
+	color: #535355;
+	line-height: 20px;
+	float: left;
+	margin-top: 20px;
+}
+.order-goods-name{
+	width: 100%;
+	height: 20px;
+	padding-left: 15px;
+}
+.order-goods-size{
+	width: 100%;
+	height: 20px;
+	padding-left: 15px;
+}
+.order-goods-number{
+	width: 100%;
+	height: 20px;
+	margin-top: 120px;
+}
+.goods-number{
+	width: 50%;
+	height: 20px;
+	float: left;
+	padding-left: 20px;
+}
+.goods-price{
+	width: 50%;
+	height: 20px;
+	float: left;
+	text-align: right;
+}
+.mobile-order-detial-middle3{
+	width: 100%;
+	height: 130px;
+	background: #fff;
+}
+.order-detial-middle3-content{
+	width: 95%;
+	height: 120px;
+	font-size: 1.2rem;
+	margin: auto;
+	padding-top: 10px;
+}
+.order-buyer-imformation{
+	width: 100%;
+	height: 25px;
+}
+.mobile-order-detial-middle4{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1.2rem;
+	color: #535355;
+	background: #fff;
+	padding-left: 10px;
+}
+.order-back{
+	height: 50px;
+	width: 100%;
+	margin: 20px auto;
+}
+.order-back a{
+	display: block;
+	background: #2B626F;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.8rem;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}

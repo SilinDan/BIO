@@ -1,0 +1,151 @@
+.primary{
+			width: 666px;
+			height:1219px; 
+			float: left;
+		}
+		.cartsteps{
+			width: 666px;
+			height: 41px;
+			float: left;
+		}
+		.checkout_progress_indicator{
+			width: 666px;
+			float: left;
+			text-align: center;
+		}
+		.cpi_later{
+			font-weight: bold;
+			font-size: 14px;
+		}
+		.checkout_step_indicator
+		{	width: 125px;
+			height: 21px;
+			color: #e3e3e3;
+    		display: block;
+   			float: left;
+   			border-bottom: 2px #E3E3E3 solid;
+
+   			
+		}
+		.checkout_step_indicator_active_step{
+			width: 125px;
+			height: 21px;
+			color: #535355;
+    		display: block;
+   			float: left;
+   			border-bottom: 2px #2B626F solid;
+
+		}
+		.checkout_step_title{
+			width: 666px;
+			height:50px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #535355;
+			background: #F8F8F5;
+			float: left;
+			line-height: 50px;
+			margin-top: 10px;
+		}
+		.receipt_information{
+			width: 666px;
+			height: 410px;
+			float: left;
+			
+			margin-top: 60px;
+		}
+		.recipt_sh{
+			height: 50px;
+			width: 666px;
+			float: left;
+			color: #535355;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 50px;
+			border-bottom: 1px solid;
+			margin-top: 7px;
+		}
+		.recipt_top{
+			height: 88px;
+			width: 666px;
+			float: left;
+			
+		}
+		.recipt_title{
+			width: 666px;
+			float: left;
+			color: #535355;
+		}
+		.recipt_top_left{
+			font-size: 14px;
+			float: left;
+			background: url("../images/kuang.png") no-repeat left center;
+			text-indent: 20px;
+		}
+		.recipt_top_left a{ 
+			color: #535355;
+			text-decoration: none;
+		 }
+		.recipt_top_right{
+			font-size: 14px;
+			float: right;
+			color: #f00;
+		}
+		.input_demo{
+			width: 666px;
+			height: 84px;
+			float: left;
+			margin-bottom: 10px;
+			color: #535355;
+		}
+		.left_input	
+		{
+			text-indent: 10px;
+			width: 320px;
+			height: 84px;
+			float: left;
+			
+		}
+		.right_input{
+			text-indent: 10px;
+			width: 320px;
+			height: 84px;
+			float: right; 
+		}
+		.input_wh{
+			width: 316px;
+			height: 38px;
+		}
+		.check_box{
+			width: 320px;
+			height: 84px;
+			float: left;
+			
+		}
+		.check_box_add{
+			margin-right: 10px;
+			width: 95px;
+			height: 84px;
+			float: left;
+			
+		}
+		.add_demo{
+			width: 95px;
+			height: 38px;
+		}
+		.save_box{
+			width: 200px;
+			height: 50px;
+			float: left;
+			text-align: center;
+			margin-top:38px;
+		}
+		.save{
+			width: 200px;
+			height: 50px;
+			float: left;
+			text-align: center;
+			color: #fff;
+			background: #2B626F;
+			font-size: 18px;
+		}

@@ -1,0 +1,204 @@
+.bg{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	/*background: #000;*/
+/*	opacity: 0.5;*/
+	position: absolute;
+	top: 15%;
+}
+.log-bg{
+	height: 542px;
+	width: 782px;
+	background: #fff;
+	margin: 0 auto;
+	/*display: none;*/
+	/*position: absolute;
+	top: 15%;
+	left: 25%;*/
+}
+.log-dialog{
+	height: 492px;
+	width: 742px;
+	margin: 0 auto;
+	/*background: #000;*/
+	padding-top: 25px;
+}
+.dialog-close{
+	height: 22px;
+	width: 100%;
+	/*background: #00f;*/
+}
+.close-dialog{
+	font-size: 30px;
+	line-height: 20px;
+	color: #2B626F;
+	float: right;
+}
+.dialog-content{
+	height: 470px;
+	width: 742px;
+	/*background: #ccc;*/
+}
+.user-log{
+	height: 470px;
+	width: 666px;
+	margin: 0 auto;
+	/*background: #808080;*/
+}
+.log-title{
+	width: 666px;
+	height: 40px;
+	/*background: #292929;*/
+	font-size: 30px;
+	color: #535355;
+	margin-bottom: 27px;
+}
+.user-log-left{
+	width: 40%;
+	height: 402px;
+	float: left;
+	/*background: #00f;*/
+}
+.user-log-right{
+	width: 40%;
+	height: 228px;
+	float: right;
+	background: #F8F8F5;
+}
+.input-id{
+	height: 48px;
+	width: 99%;
+	color: #535355;
+	text-indent: 20px;
+}
+.input-pwd{
+	height: 48px;
+	width: 99%;
+	color: #535355;
+	margin-top: 20px;
+	text-indent: 20px;
+}
+.a-forgetpwd{
+	font-size: 12px;
+	color: #808080;
+	margin-top: 20px;
+}
+.a-forgetpwd:hover{
+	text-decoration: none;
+}
+.autolog-div{
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+}
+.input-autolog{
+	height: 17px;
+	width: 17px;
+	margin-left: 45%;
+	vertical-align:middle;
+}
+.span-remember{
+	font-size: 12px;
+	color: #808080;
+	vertical-align:middle;  
+}
+.login-div{
+	width: 100%;
+	height: 50px;
+	/*background: #f00;*/
+	margin-top: 40px;
+}
+.log-in{
+	text-decoration: none;
+	background: #2B626F;
+	height: 50px;
+	width: 160px;
+	display: block;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+}
+.split-line-div{
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    display: flex;/*使用flex布局*/
+    justify-content: space-between;/*单行水平对齐*/
+    align-items: center;/*垂直居中*/
+    margin-top: 20px;
+}
+.split-line{
+    height: 1px;
+    flex-grow: 1;
+    background: #808080;
+}
+.split-line-text{
+	font-size: 12px;
+	color: #808080;
+    margin: 0 5px;
+}
+.other-log{
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #535355;
+	text-align: center;
+	/*background: #f00;*/
+}
+.other-log-way{
+	width: 100%;
+	height: 65px;
+	/*background: #000;*/
+}
+.login-way{
+	width: 40px;
+	height: 60px;
+	/*background: #f00;*/
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+	color: #808080;
+	text-decoration: none;
+}
+.new-user-content{
+	width: 70%;
+	height: 150px;
+	/*background: #f00;*/
+	margin: 30px auto;
+}
+.p-new-user{
+	font-size: 16px;
+	color: #535355;
+}
+.a-new-user{
+	font-size: 16px;
+	color: #535355;
+}
+.a-new-user:hover{
+	text-decoration: none;
+}
+.register-div{
+	width: 100%;
+	height: 50px;
+	/*background: #000;*/
+	margin-top: 20px;
+}
+.user-register{
+	text-decoration: none;
+	background: #2B626F;
+	height: 50px;
+	width: 160px;
+	display: block;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+}

@@ -1,0 +1,271 @@
+
+body{
+	background: #292929;
+}
+
+		.background{
+		width: 1176px;
+    	height: 1000px;
+    	background: #fff;
+    	margin: auto;
+       
+		}
+     	.re_content{
+		width: 940px;
+    	height: 1000px;
+    	background: #fff;
+    	margin: auto;
+      
+		}
+
+		.re_contentleft{
+    	width: 682px;
+    	height: 1000px;
+    	background: #fff;
+    	float: left;
+    	
+
+    }
+
+       .re_contentright{
+    	width: 238px;
+    	height: 1000px;
+    	background: #fff;
+    	float: right;
+    
+    }
+			    
+	  .title{
+	  	height: 72px;
+	  	font-size: 40px;
+	  	font-weight: 400;
+	  	color: #292929;
+	  	text-align: center;
+	  }
+
+	  .auth{
+	  	height: 62px;
+	  	font-size: 14px;
+	  	color: #808080;
+	  	line-height: 50px;
+	 
+	  }
+		.auth span a{
+	  	color: #808080;
+			text-decoration: none;
+		}
+	  .back-to-login{
+	  	font-size: 20px;
+	  	float: right;
+	  	color: #2B626F;
+     }
+
+     .form{
+     	overflow: hidden;
+     	margin-top: 70px;
+     	margin-left: 3px;
+        }
+     
+     .input_{
+			width: 455px;
+			height: 46px;
+			/*margin-top: 25px;*/
+			text-indent: 18px;
+			font-size: 14px;
+		}
+	 .detail{
+	 	float: right;
+	 }
+
+	 .input_end{
+           	width: 197px;
+			height: 48px;
+			text-indent: 18px;
+			font-size: 14px;
+	 }
+
+    .checkbox{
+            width: 457px;
+            color: #292929;
+            font-size: 14px;
+    }
+
+    .submit_regis{
+    	text-decoration: none;
+		background: #292929;
+		height: 50px;
+		width: 104px;
+		display: block;
+		float: right;
+		text-align: center;
+		font-size: 20px;
+		line-height: 40px;
+		color: #fff;
+		border:  solid #292929;
+    	}
+     .order-footer{
+	width: 216px;
+	overflow: hidden;
+	float: right;
+	background: #F8F8F5;
+	margin-bottom: 20px;
+      }
+    .order-footer-content{
+	width: 190px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 14px;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+
+ .order-footer-acount{
+	width: 216px;
+	font-size: 14px;
+	color: #808080;
+	line-height: 14px;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+	
+    .term-contaction{
+	height: 18px;
+	width: 100%;
+	margin-top: 10%;
+	font-size: 20px;
+	color: #808080;
+    }
+
+    .smalltitle{
+     font-size: 20px;
+     text-align: center;
+     color: #525355;
+    }
+
+	   .re_content table {
+	    	margin-top: 30px;
+
+	    }
+
+	    .back-to-login a
+	  	{
+        font-size: 20px;
+        color:#2B626F;
+        text-decoration: underline;
+	  	}
+	  .back-to-login a
+	  	{
+        font-size: 20px;
+        color:#2B626F;
+        text-decoration: underline;
+	  	}
+
+	  .re_pcpbbar{
+      width: 1176px;
+      height: 60px;
+      background: #3A626C;
+      margin: 0 auto;
+     }
+
+  .split-line-div{
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    /*display: flex;/*使用flex布局*/
+    justify-content: space-between;/*单行水平对齐*/
+    align-items: center;/*垂直居中*/
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+	.split-line{
+	    height: 1px;
+	    flex-grow: 1;
+	    background: #808080;
+	}
+	.split-line-text{
+		font-size: 40px;
+		color: #535355;
+	    margin: 0 15px;
+	}
+
+	   /*table a
+	  	{
+        font-size: 16px;
+        color: #292929;
+        text-decoration: underline;
+	  	}*/
+
+	  	.order-footer a
+	  	{
+        font-size: 16px;
+        color:#292929;
+        text-decoration: underline;
+	  	}
+	 
+	 
+
+
+
+	 .tips{
+			font-size: 12px;
+		    color: #f00;
+		    float: left;
+		   
+		}
+		.iderr{
+			font-size: 12px;
+		    color: #f00;
+		   
+		}
+		.err_div{
+			width: 210px;
+			height: 45px;
+		}
+		.tips_box{
+			width: 455px;
+			height: 85px;
+		}
+		.img_q{
+				top: 18px;
+		    /* margin-top: 20px; */
+		    position: relative;
+		    left: 4px;
+		}
+
+		.tips{
+			 position: absolute;
+			 color: #f00;
+			 font-size: 12px;
+			 width: 60%;
+			 height: 20px;
+			 float: left;
+		}
+		.iderr{
+			font-size: 12px;
+		    color: #f00;
+		   
+		}
+		.err_div{
+			width: 210px;
+			height: 45px;
+		}
+		.tips_box{
+			width: 455px;
+			height: 85px;
+		}
+		.img_q{
+				top: 18px;
+		    /* margin-top: 20px; */
+		    position: relative;
+		    left: 4px;
+		}
+	
+		
+		.border-red{
+		border: 1px solid #f00;
+	}
+	    .border-blue{
+		border: 1px solid #99BBF2;
+	}

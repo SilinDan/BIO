@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title></title>  
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" type="text/css" href="css/conment.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/pintuer.js"></script>
+		<script src="js/ling_bio.js" type="text/javascript" charset="utf-8"></script>
+    	<style>
+		#feedback{
+            height: 160px;
+          	width: 50%;
+          	margin-top: 15px;
+        }
+        #feedback img{
+            margin:3px 10px;
+            border: 1px solid silver;
+            border-radius:3px;
+            padding: 6px; 
+            width: 35%;
+            height: 85%;
+        }
+        #feedback p{
+            font-family: "微软雅黑";
+            line-height: 120px;
+            color: #ccc;
+        }
+	</style>
+</head>
+<body>
+
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder">添加商品</strong></div>
+<div class="body-content">
+  <form method="post" class="form-x" action="../api/goods.api.php?goods=add">  
+      <input type="text" name="goods_id" id="goods_id" style="display: none">
+      <div class="form-group"> 
+        <div class="label">
+          <label>商品名称：</label>
+        </div>
+    <!-- 商品属性加载区 -->       
+        <div class="field">
+          <input type="text" class="input w50" value="" id="goods" name="goods_name" />
+          <span id="tishi" class="ok" style="line-height: 30px;color: #f00;"> </span>
+        </div>
+      </div>
+<div class="form-group">
+        <div class="label">
+          <label>选择一级分类：</label>
+        </div>
+        <div class="field">
+          <select name="cate_name" class="input w50" id="cate_one">
+           
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>选择二级分类：</label>
+        </div>
+        <div class="field">
+          <select name="second_name" class="input w50" id="second" placeholder="请选择"">
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>选择商品系列：</label>
+        </div>
+        <div class="field">
+          <select name="serie_name" class="input w50" id="serie" placeholder="请选择"">
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>英文名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50"  name="goods_english" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+	        <div class="label">
+	          <label>图片：</label>
+	        </div>
+	        <div class="field">
+	          <input name="goods_img" id="inputfile" type="file"  value="浏览上传"  style="float:left;">
+	           <a class="file close" style="font-size: 15px;">重新选择</a>
+	          <br>
+	           <div id="feedback">
+    		</div>
+	     </div>
+	  </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>商品价格：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50"  name="goods_price" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>商品库存：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50"  name="goods_remain" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>商品规格(ml)：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="goods_size" />
+          <div class="tips"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>描述：</label>
+        </div>
+        <div class="field">
+          <textarea class="input" name="goods_detail" style=" height:90px;width:60%"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>男士/女士产品：</label>
+        </div>
+        <div class="field">
+          <input name="goods_sex" type="radio" checked="checked"/ value="男士">男士      
+		  <input name="goods_sex" type="radio" value="女士" />女士
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="label">
+          <label>商品详情介绍：</label>
+        </div>
+        <div class="field">
+           <textarea id="editor_id" name="goods_content" style="width:700px;height:300px;">
+			&lt;strong&gt;HTML内容&lt;/strong&gt;
+			</textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 添加</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">
+	   function uploadFile(){
+      $("#file").click(function(){
+      var formData = new FormData($('form')[0]);
+		 formData.append('file',$(':file')[0].files[0]);
+		 //坑点: 无论怎么传数据,console.log(formData)都会显示为空,但其实值是存在的,f12查看Net tab可以看到数据被上传了
+		 $.ajax({
+		  url:'../api/upload_file.php',
+		  type: 'POST',
+		  data: formData,
+		  //这两个设置项必填
+		  contentType: false,
+		  processData: false,
+		  success:function(data){
+		  console.log(data)
+		  var srcPath = data;
+		　　　　 //注意这里的路径要根据自己的储存文件的路径设置
+		  $('.picDis img').attr('src', '../../home/view/images/goods/'+srcPath);
+		  }
+		 })
+   })
+   }
+
+    // 获取系列名
+       function ajaxGetSerice(){
+          $.ajax({
+            url:"../api/serie.api.php?serice=ajaxGetSerice",
+            type:'post',
+            dataType:'json',
+            data:{ },
+            success:function(res){
+              res.map(function(item){
+                const option = document.createElement('option');
+                  $(option).html(item.serie_name);
+                  $(option).val(item.serie_id);
+                  $('#serie').append(option);
+                   console.log(item.serie_name);
+              })
+            // $('#second').empty();
+            //     res.map(function(item){
+            //       // 依次将二级分类插入
+            //       const option = document.createElement('option');
+            //       $(option).html(item.second_name);
+            //       $(option).val(item.second_id);
+            //       $('#second').append(option);
+            //     });
+
+            }
+          })
+    }
+    ajaxGetSerice();
+
+      function ajaxCheckGoodsName() {
+          $("#goods").blur(function () {
+            //alert($(this).val());
+            $.ajax({
+              url:"../api/goods.api.php?goods=ajaxCheckGoodsName",
+              type:'post',
+              dataType:"html",
+              data:{user:$(this).val()}, 
+              success:function(res) {
+                $("#tishi").html(res);
+              }
+            })
+          })
+        }
+        
+        function getSecond(cateId) {
+          // 获取二级分类
+          $.ajax({
+              url:"../api/category.api.php?cate=ajaxGetSecondInfo",
+              type:'post',
+              dataType:"json",
+              data: { 
+                  id: cateId,
+              },
+              success:function(res) {
+                // 清空原有的
+                $('#second').empty();
+                res.map(function(item){
+                  // 依次将二级分类插入
+                  const option = document.createElement('option');
+                  $(option).html(item.second_name);
+                  $(option).val(item.second_id);
+                  $('#second').append(option);
+                });
+             
+              }
+          });
+        }
+       
+
+        // 一级分类更改时重新获取二级分类
+        $('#cate_one').on('change', function(e) {
+          getSecond(e.target.value);
+        });
+        // 获取一级分类
+        $.ajax({
+              url:"../api/category.api.php?cate=ajaxGetCateInfo",
+              type:'post',
+              dataType:"json",
+              data: { },
+              success:function(res) {
+                res.map(function(item) {
+                  const option = document.createElement('option');
+
+                  $(option).html(item.cate_name);
+                  $(option).val(item.cate_id);
+                  $('#cate_one').append(option);
+                });
+              }
+          })
+
+          
+
+         $.ajax({
+              url:"../api/goods.api.php?goods=ajaxGetGoodsInfo",
+              type:'post',
+              dataType:"json",
+              data: {
+                id: location.search.split('=')[1], 
+              },
+              success:function(res) {
+                // console.log(res);
+                $('#goods').val(res.goods_name);
+                $('#goods_id').val(res.goods_id);
+                $('input[name=goods_english]').val(res.goods_english);
+                $('input[name=goods_price]').val(res.goods_price);
+                $('input[name=goods_remain]').val(res.goods_remain);
+                $('input[name=goods_size]').val(res.goods_size);
+                $('textarea[name=goods_detail]').val(res.goods_detail);
+                $('img[name=goods_img]').attr('src', res.goods_img);
+                $('#image1').val(res.goods_img);
+                $('#cate_one').val(res.category.cate_id);
+                getSecond(res.category.cate_id);
+              }
+          })
+
+          
+  $(ajaxCheckGoodsName);
+        $(uploadFile);
+   // 下面全都是上传文件的   
+  $(document).ready(function(){
+    //响应文件添加成功事件
+    var feedback = $("#feedback");
+    $("#inputfile").change(function(){
+    if (feedback.children('img').length>1) {
+        alert("最多只能选择两张图片");
+        return false;
+    }
+        //创建FormData对象
+        var data = new FormData();
+        //为FormData对象添加数据
+        $.each($('#inputfile')[0].files, function(i, file) {
+            data.append('upload_file'+i, file);
+        });
+        $(".loading").show();    //显示加载图片
+        //发送数据
+        $.ajax({
+            url:'../api/upload_file.php', /*去过那个php文件*/
+            type:'POST',  /*提交方式*/
+            data:data,
+            cache: false,
+            contentType: false,        /*不可缺*/
+            processData: false,         /*不可缺*/
+            success:function(data){        
+                data = $(data).html();        /*转格式*/
+                
+                //第一个feedback数据直接append，其他的用before第1个（ .eq(0).before() ）放至最前面。
+                //data.replace(/&lt;/g,'<').replace(/&gt;/g,'>') 转换html标签，否则图片无法显示。
+                if($("#feedback").children('img').length == 0)
+                {
+                 $("#feedback").append(data.replace(/&lt;/g,'<').replace(/&gt;/g,'>'));
+                }
+                else{
+                    $("#feedback").children('img').eq(0).before(data.replace(/&lt;/g,'<').replace(/&gt;/g,'>'));
+                } 
+            },
+            error:function(){
+                alert('上传出错');
+            }
+        });
+    });
+    $(".close").on("click",function(){
+        $("#feedback").empty();
+    });
+});
+
+    </script>
+<script charset="utf-8" src="../../public/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" src="../../public/kindeditor/lang/zh_CN.js"></script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
+</body></html>

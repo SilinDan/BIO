@@ -1,0 +1,131 @@
+.font-grey{
+	color: #808080;
+}
+.font-grey1{
+	color: #535355;
+}
+.font-blue{
+	color: #2B626F;
+}
+.font-blue1{
+	color: #141831;
+}
+.moblie-hadadmin-order-box{
+	width: 100%;
+	height: 410px;
+	overflow: scroll;
+	background: #fff;
+}
+.mobile-unfinished-order-box{
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+	background: #F8F8F5;
+}
+.mobile-unfinished-order-content{
+	width: 95%;
+	overflow: hidden;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+.mobile-order-number{
+	width: 100%;
+	height: 20px;
+	font-size: 1.2rem;
+	line-height: 20px;
+}
+.mobile-order-h2{
+	width: 25%;
+	height: 20px;
+	float: left;
+}
+.order-number{
+	width: 50%;
+	height: 20px;
+	float: left;
+}
+.waiting-pay{
+	width: 25%;
+	height: 20px;
+	float: left;
+	text-align: right;
+}
+.mobile-order-date{
+	width: 100%;
+	height: 20px;
+	font-size: 1.2rem;
+	line-height: 20px;
+}
+.order-date{
+	width: 80%;
+	height: 20px;
+}
+.mobile-order-pic-content{
+	width: 100%;
+	height: 130px;
+	margin: auto;
+}
+.order-pic{
+	width: 122px;
+	height: 122px;
+	border: 1px solid #ccc;
+}
+.mobile-order-bottom{
+	width: 100%;
+	height: 100px;
+}
+.order-info{
+	width: 100%;
+	height: 40px;
+}
+.order-info-left{
+	width: 60%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	font-size: 1.2rem;
+	color: #141831;
+}
+.cut-off-line{
+	width: 100%;
+	height: 1px;
+	background: #141831;
+	margin: 10px auto;
+}
+.order-pay-rightNow{
+	width: 40%;
+	height: 40px;
+	float: right;
+}
+.order-pay-rightNow a{
+	display: block;
+	background: #2B626F;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.8rem;
+}
+.order-price{
+	color: #000;
+	font-weight: 600;
+}
+.order-operation{
+	width: 100%;
+	height: 40px;
+}
+.order-operation a{
+	display: block;
+	background: #fff;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	color: #2B626F;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #2B626F;
+	float: left;
+	margin-right: 10px;
+}
